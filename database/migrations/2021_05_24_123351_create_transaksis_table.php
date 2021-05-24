@@ -24,7 +24,7 @@ class CreateTransaksisTable extends Migration
             $table->date('tgl_kembali');
             $table->enum('status', ['pinjam', 'kembali']);
             $table->text('ket')->nullable();
-            $table->timestamps();        
+            $table->timestamps(); 
         });
     }
 
