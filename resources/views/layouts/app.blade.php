@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>PERPUS Polinema - BagusFaizin.COM</title>
+  <title>PERPUS Polinema - Arjen.in</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="{{asset('vendors/iconfonts/mdi/css/materialdesignicons.min.css')}}">
   <link rel="stylesheet" href="{{asset('vendors/css/vendor.bundle.base.css')}}">
@@ -89,7 +89,7 @@
         <footer class="footer">
           <div class="container-fluid clearfix">
             <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © {{date('Y')}}
-            <a href="Perpus Polinema" target="_blank">Bagus Dan Faizin</a>. All rights reserved.</span>
+            <a href="Perpus Polinema" target="_blank">Ariono Dan Rajen</a>. All rights reserved.</span>
           </div>
         </footer>
         <!-- partial -->
