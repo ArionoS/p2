@@ -97,6 +97,8 @@ $(document).ready(function() {
                             <div class="col-md-6">
                             <select class="form-control" name="user_id" required="">
                                 <option value="">(Cari User)</option>
+                                <option value="1">Admin</option>
+                                <option value="2">User</option>
                                 @foreach($users as $user)
                                     <option value="{{$user->id}}">{{$user->name}}</option>
                                 @endforeach
