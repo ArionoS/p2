@@ -26,7 +26,7 @@
 
         <div class="row w-100">
         <div class="col-md-12" style="margin-bottom: 20px;">
-        <h2 style="text-align: center;">PERPUSKU </h2>
+        <h2 style="text-align: center;">NGE - GYM </h2>
         </div>
         <div class="col-lg-4 mx-auto">
             <div class="auto-form-wrapper">

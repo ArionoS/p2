@@ -80,6 +80,7 @@ $(document).ready(function() {
                             </div>
                         </div>
 
+                        
                         <div class="form-group{{ $errors->has('prodi') ? ' has-error' : '' }}">
                             <label for="prodi" class="col-md-4 control-label">kategori</label>
                             <div class="col-md-6">
