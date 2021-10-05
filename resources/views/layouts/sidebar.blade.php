@@ -40,10 +40,10 @@
                   <a class="nav-link {{ setActive(['anggota*']) }}" href="{{route('anggota.index')}}">Data Anggota</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {{ setActive(['buku*']) }}" href="{{route('buku.index')}}">Data Buku</a>
+                  <a class="nav-link {{ setActive(['buku*']) }}" href="{{route('buku.index')}}">Data Konsultan</a>
                 </li>
                  <li class="nav-item">
-                  <a class="nav-link {{ setActive(['user*']) }}" href="{{route('user.index')}}">Data User</a>
+                  <a class="nav-link {{ setActive(['user*']) }}" href="{{route('user.index')}}">Data User/Admin</a>
                 </li>
               </ul>
             </div>
@@ -52,7 +52,7 @@
           <li class="nav-item {{ setActive(['transaksi*']) }}">
             <a class="nav-link" href="{{route('transaksi.index')}}">
               <i class="menu-icon mdi mdi-backup-restore"></i>
-              <span class="menu-title">Transaksi</span>
+              <span class="menu-title">Konsultasi</span>
             </a>
           </li>
           <li class="nav-item">
@@ -64,7 +64,7 @@
             <div class="collapse" id="ui-laporan">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="{{url('laporan/trs')}}">Laporan Transaksi</a>
+                  <a class="nav-link" href="{{url('laporan/trs')}}">Laporan Training</a>
                 </li>
                 <!--
                 <li class="nav-item">
@@ -72,7 +72,7 @@
                 </li>
                 -->
                  <li class="nav-item">
-                  <a class="nav-link" href="{{url('laporan/buku')}}">Laporan Buku</a>
+                  <a class="nav-link" href="{{url('laporan/buku')}}">Laporan Konsultan</a>
                 </li>
               </ul>
             </div>

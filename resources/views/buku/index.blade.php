@@ -14,7 +14,7 @@
 <div class="row">
 
   <div class="col-lg-2">
-    <a href="{{ route('buku.create') }}" class="btn btn-primary btn-rounded btn-fw"><i class="fa fa-plus"></i> Tambah Buku</a>
+    <a href="{{ route('buku.create') }}" class="btn btn-primary btn-rounded btn-fw"><i class="fa fa-plus"></i> Tambah User Konsultan</a>
   </div>
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <form action="{{ url('import_buku') }}" method="post" class="form-inline" enctype="multipart/form-data">
@@ -40,8 +40,8 @@
               <div class="card">
 
                 <div class="card-body">
-                  <h4 class="card-title pull-left">Data Buku</h4>
-                  <a href="{{url('format_buku')}}" class="btn btn-xs btn-info pull-right">Format Buku</a>
+                  <h4 class="card-title pull-left">Data Konsultan</h4>
+                  <a href="{{url('format_buku')}}" class="btn btn-xs btn-info pull-right">Format Data Konsultan</a>
                   <div class="table-responsive">
                     <table class="table table-striped" id="table">
                       <thead>
@@ -50,19 +50,19 @@
                             Judul
                           </th>
                           <th>
-                            ISBN
+                            Nomor
                           </th>
                           <th>
-                            Pengarang
+                            Alamat
                           </th>
                           <th>
                             Tahun
                           </th>
                           <th>
-                            Stok
+                            Free Jam
                           </th>
                           <th>
-                            Rak
+                            Tim
                           </th>
                           <th>
                             Action

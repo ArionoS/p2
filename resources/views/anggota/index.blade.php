@@ -37,10 +37,10 @@
                             Nama
                           </th>
                           <th>
-                            NPM
+                            Nomor
                           </th>
                           <th>
-                            Prodi
+                            Kategori
                           </th>
                           <th>
                             Jenis Kelamin
@@ -70,11 +70,11 @@
 
                           <td>
                           @if($data->prodi == 'TI')
-                            Teknik Informatika
+                            Dewasa
                           @elseif($data->prodi == 'SI')
-                            Sistem Informasi
+                            Remaja
                           @else
-                            Kesehatan Masyarakat
+                            Lainya
                           @endif
                           </td>
                           <td>

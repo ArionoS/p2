@@ -15,7 +15,7 @@
 <div class="row">
 
   <div class="col-lg-2">
-    <a href="{{ route('transaksi.create') }}" class="btn btn-primary btn-rounded btn-fw"><i class="fa fa-plus"></i> Tambah Transaksi</a>
+    <a href="{{ route('transaksi.create') }}" class="btn btn-primary btn-rounded btn-fw"><i class="fa fa-plus"></i> Tambah Konsultasi</a>
   </div>
     <div class="col-lg-12">
                   @if (Session::has('message'))
@@ -38,16 +38,16 @@
                             Kode
                           </th>
                           <th>
-                            Buku
+                           Konsultan
                           </th>
                           <th>
-                            Peminjam
+                            Trainer
                           </th>
                           <th>
-                            Tgl Pinjam
+                            Training Awal
                           </th>
                           <th>
-                            Tgl Kembali
+                          Training Akhir
                           </th>
                           <th>
                             Status
@@ -82,9 +82,9 @@
                           </td>
                           <td>
                           @if($data->status == 'pinjam')
-                            <label class="badge badge-warning">Pinjam</label>
+                            <label class="badge badge-warning">Masih Training</label>
                           @else
-                            <label class="badge badge-success">Kembali</label>
+                            <label class="badge badge-success">Selesai Training</label>
                           @endif
                           </td>
                           <td>
