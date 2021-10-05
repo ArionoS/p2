@@ -12,11 +12,16 @@
 */
 
 Auth::routes();
+Route::get('/welcome', function () {
+    return view('Auth.welcome');
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'HomeController@index');
 
 Route::resource('user', 'UserController');
+
+Route::resource('register', 'UserController');
 
 Route::resource('anggota', 'AnggotaController');
 
