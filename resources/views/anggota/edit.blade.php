@@ -36,7 +36,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('npm') ? ' has-error' : '' }}">
-                            <label for="npm" class="col-md-4 control-label">NPM</label>
+                            <label for="npm" class="col-md-4 control-label">Nomor</label>
                             <div class="col-md-6">
                                 <input id="npm" type="number" class="form-control" name="npm" value="{{ $data->npm }}" maxlength="8" required>
                                 @if ($errors->has('npm'))
@@ -82,13 +82,13 @@ $(document).ready(function() {
                         </div>
 
                         <div class="form-group{{ $errors->has('prodi') ? ' has-error' : '' }}">
-                            <label for="prodi" class="col-md-4 control-label">Prodi</label>
+                            <label for="prodi" class="col-md-4 control-label">Kategori</label>
                             <div class="col-md-6">
                             <select class="form-control" name="prodi" required="">
                                 <option value=""></option>
-                                <option value="TI" {{$data->prodi === "TI" ? "selected" : ""}} >Teknik Informatika</option>
-                                <option value="SI" {{$data->prodi === "SI" ? "selected" : ""}} >Sistem Informasi</option>
-                                <option value="KM" {{$data->prodi === "KM" ? "selected" : ""}} >Kesehatan Masyarakat</option>
+                                <option value="TI" {{$data->prodi === "TI" ? "selected" : ""}} >Dewasa</option>
+                                <option value="SI" {{$data->prodi === "SI" ? "selected" : ""}} >Remaja</option>
+                                <option value="KM" {{$data->prodi === "KM" ? "selected" : ""}} >Lainya</option>
                             </select>
                             </div>
                         </div>

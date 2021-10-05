@@ -43,10 +43,10 @@ $(document).ready(function() {
                 <div class="col-12">
                   <div class="card">
                     <div class="card-body">
-                      <h4 class="card-title">Tambah Buku baru</h4>
+                      <h4 class="card-title">Tambah Konsultasi baru</h4>
                       
                         <div class="form-group{{ $errors->has('judul') ? ' has-error' : '' }}">
-                            <label for="judul" class="col-md-4 control-label">Judul</label>
+                            <label for="judul" class="col-md-4 control-label">Nama</label>
                             <div class="col-md-6">
                                 <input id="judul" type="text" class="form-control" name="judul" value="{{ old('judul') }}" required>
                                 @if ($errors->has('judul'))
@@ -57,7 +57,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('npm') ? ' has-error' : '' }}">
-                            <label for="isbn" class="col-md-4 control-label">ISBN</label>
+                            <label for="isbn" class="col-md-4 control-label">Nomor</label>
                             <div class="col-md-6">
                                 <input id="isbn" type="text" class="form-control" name="isbn" value="{{ old('isbn') }}" required>
                                 @if ($errors->has('isbn'))
@@ -68,7 +68,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('pengarang') ? ' has-error' : '' }}">
-                            <label for="pengarang" class="col-md-4 control-label">Pengarang</label>
+                            <label for="pengarang" class="col-md-4 control-label">Alamat</label>
                             <div class="col-md-6">
                                 <input id="pengarang" type="text" class="form-control" name="pengarang" value="{{ old('pengarang') }}" required>
                                 @if ($errors->has('pengarang'))
@@ -79,7 +79,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('penerbit') ? ' has-error' : '' }}">
-                            <label for="penerbit" class="col-md-4 control-label">Penerbit</label>
+                            <label for="penerbit" class="col-md-4 control-label">Tahun</label>
                             <div class="col-md-6">
                                 <input id="penerbit" type="text" class="form-control" name="penerbit" value="{{ old('penerbit') }}" required>
                                 @if ($errors->has('penerbit'))
@@ -90,7 +90,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
-                            <label for="tahun_terbit" class="col-md-4 control-label">Tahun Terbit</label>
+                            <label for="tahun_terbit" class="col-md-4 control-label">Free Jam</label>
                             <div class="col-md-6">
                                 <input id="tahun_terbit" type="number" maxlength="4" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
                                 @if ($errors->has('tahun_terbit'))
@@ -124,13 +124,13 @@ $(document).ready(function() {
                         </div>
 
                         <div class="form-group{{ $errors->has('lokasi') ? ' has-error' : '' }}">
-                            <label for="lokasi" class="col-md-4 control-label">Lokasi</label>
+                            <label for="lokasi" class="col-md-4 control-label">Tim</label>
                             <div class="col-md-6">
                             <select class="form-control" name="lokasi" required="">
                                 <option value=""></option>
-                                <option value="rak1">Rak 1</option>
-                                <option value="rak2">Rak 2</option>
-                                <option value="rak3">Rak 3</option>
+                                <option value="rak1"> 1</option>
+                                <option value="rak2"> 2</option>
+                                <option value="rak3"> 3</option>
                             </select>
                             </div>
                         </div>

@@ -47,7 +47,7 @@
                       <thead>
                         <tr>
                           <th>
-                            Judul
+                          Nama
                           </th>
                           <th>
                             Nomor

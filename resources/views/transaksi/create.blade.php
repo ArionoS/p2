@@ -34,10 +34,10 @@
                 <div class="col-12">
                   <div class="card">
                     <div class="card-body">
-                      <h4 class="card-title">Tambah Transaksi baru</h4>
+                      <h4 class="card-title">Tambah Konsultasi baru</h4>
                     
                         <div class="form-group{{ $errors->has('kode_transaksi') ? ' has-error' : '' }}">
-                            <label for="kode_transaksi" class="col-md-4 control-label">Kode Transaksi</label>
+                            <label for="kode_transaksi" class="col-md-4 control-label">Kode Konsultasi</label>
                             <div class="col-md-6">
                                 <input id="kode_transaksi" type="text" class="form-control" name="kode_transaksi" value="{{ $kode }}" required readonly="">
                                 @if ($errors->has('kode_transaksi'))
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                          <div class="form-group{{ $errors->has('tgl_pinjam') ? ' has-error' : '' }}">
-                            <label for="tgl_pinjam" class="col-md-4 control-label">Tanggal Pinjam</label>
+                            <label for="tgl_pinjam" class="col-md-4 control-label">Tanggal Konsultasi</label>
                             <div class="col-md-3">
                                 <input id="tgl_pinjam" type="date" class="form-control" name="tgl_pinjam" value="{{ date('Y-m-d', strtotime(Carbon\Carbon::today()->toDateString())) }}" required @if(Auth::user()->level == 'user') readonly @endif>
                                 @if ($errors->has('tgl_pinjam'))
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                          <div class="form-group{{ $errors->has('tgl_kembali') ? ' has-error' : '' }}">
-                            <label for="tgl_kembali" class="col-md-4 control-label">Tanggal Kembali</label>
+                            <label for="tgl_kembali" class="col-md-4 control-label">Tanggal Akhir Konsultasi</label>
                             <div class="col-md-3">
                                 <input id="tgl_kembali" type="date"  class="form-control" name="tgl_kembali" value="{{ date('Y-m-d', strtotime(Carbon\Carbon::today()->addDays(5)->toDateString())) }}" required="" @if(Auth::user()->level == 'user') readonly @endif>
                                 @if ($errors->has('tgl_kembali'))
@@ -71,13 +71,13 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('buku_id') ? ' has-error' : '' }}">
-                            <label for="buku_id" class="col-md-4 control-label">Buku</label>
+                            <label for="buku_id" class="col-md-4 control-label">Konsultan</label>
                             <div class="col-md-6">
                                 <div class="input-group">
                                 <input id="buku_judul" type="text" class="form-control" readonly="" required>
                                 <input id="buku_id" type="hidden" name="buku_id" value="{{ old('buku_id') }}" required readonly="">
                                 <span class="input-group-btn">
-                                    <button type="button" class="btn btn-info btn-secondary" data-toggle="modal" data-target="#myModal"><b>Cari Buku</b> <span class="fa fa-search"></span></button>
+                                    <button type="button" class="btn btn-info btn-secondary" data-toggle="modal" data-target="#myModal"><b>Cari Konsultan</b> <span class="fa fa-search"></span></button>
                                 </span>
                                 </div>
                                 @if ($errors->has('buku_id'))
