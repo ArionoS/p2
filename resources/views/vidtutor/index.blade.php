@@ -524,4 +524,3 @@
 </body>
 
 </html>
-@endsection

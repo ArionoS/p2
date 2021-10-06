@@ -51,49 +51,6 @@
         <header class="sc-htpNat sc-dxgOiQ ggdsbI">
             <div class="sc-chPdSV ckEKKQ">
 
-                <div class="sc-kGXeez cnWkdM">
-                    <div class="sc-kpOJdX eiPQVA">
-                        <div class="sc-bdVaJa kaUAhW"><a href="#" class="sc-gZMcBi sc-kAzzGY EXJwv">
-                                <img alt="SehatQ" src="landing/images/new/logo2.png" width="50" height="40" class="sc-jzJRlG jJeLuK" /></a>
-                            <div class="sc-htpNat bJvWJi"><img alt="SehatQ" src="https://static.sehatq.com/web/assets/img/logo-kemenkes.svg?v=6" width="80" height="40" class="sc-jzJRlG jJeLuK" /></div>
-
-                        </div>
-                    </div>
-
-                    <div class="sc-kpOJdX jdBprp">
-                        <div class="sc-htpNat iZWQZt">
-                            <form method="get" target="" action="#">
-                                <div class="sc-iAyFgw bPzenj">
-                                    <div class="sc-hSdWYo fPDUWa">
-                                        <div class="sc-cvbbAY cTYILf"><i class="sc-EHOje lntAKA"></i></div>
-                                        <div class="sc-jlyJG jpaAuv"><input type="text" placeholder="Search For Info" value="" name="searchInput" autoComplete="off" class="sc-jAaTju ieDlNt" /></div>
-                                    </div>
-                                </div><input type="submit" hidden="" />
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="sc-kpOJdX eiPQVA">
-                        <div class="sc-bdVaJa dLaTrU">
-
-                            <a class="sc-gZMcBi sc-kAzzGY EXJwv Anchor-NexLink-Function" style="margin-left: 20px;">
-
-                                <h5>
-                                    <img alt="SehatQ Profile" src="https://www.sehatq.com/public/img/icon/profile.svg" width="30" height="30" class="sc-jzJRlG jJeLuK" />Welcome Rajendra
-                                </h5>
-
-                            </a>
-                            <a href="{{url('/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv Anchor-NexLink-Function" style="margin-left: 20px;">
-
-
-                                <img alt="SehatQ Profile" src="landing/images/new/home.png" width="30" height="30" class="sc-jzJRlG jJeLuK" />
-                                Main
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </header>
     </div>

@@ -16,7 +16,7 @@
 
 <head>
     <title>G Article</title>
-    <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="../../css.css?family=B612+Mono|Cabin:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="artikel/A.fonts,,_icomoon,,_style.css css,,_bootstrap.min.css css,,_jquery-ui.css css,,_owl.carousel.min.css css,,_owl.theme.default.min.css css,,_owl.theme.default.min.css css,,_jquery.fancybox.min.css css,,_bootstra.css">
