@@ -14470,6 +14470,13 @@ html {
   -webkit-flex-grow: 1;
   flex-grow: 1; }
 
+  .content-wrapper1 {
+    background: #f2f8f9;
+    padding: 2rem 2rem;
+    width: 100%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1; }
+  
 .container-scroller {
   overflow: hidden; }
 
