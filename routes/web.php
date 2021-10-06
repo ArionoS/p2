@@ -17,9 +17,6 @@ Route::get('/welcome', function () {
     return view('Auth.welcome');
 });
 
-Route::get('/', function () {
-    return view('home1');
-});
 
 Route::get('shop.index/', function () {
     return view('shop.index');
@@ -50,9 +47,9 @@ Route::get('vidtutor.Tutor1/', function () {
     return view('vidtutor.Tutor1');
   });
   
+Route::get('/home', 'HomeController@index');
 
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home1', 'HomeController@index1')->name('home1');
 Route::get('/', 'HomeController@index');
 
 Route::resource('user', 'UserController');

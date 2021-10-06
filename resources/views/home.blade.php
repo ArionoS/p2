@@ -8,7 +8,7 @@
 } );
 </script>
 @stop
-@extends('layouts.app')
+@extends('layouts.app1')
 
 @section('content')
 <html lang="id">
@@ -34,7 +34,7 @@
   <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/sehatq/font-sehatq.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
 
 
-  <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+  <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>

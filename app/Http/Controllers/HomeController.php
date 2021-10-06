@@ -41,4 +41,20 @@ class HomeController extends Controller
         }
         return view('home', compact('transaksi', 'anggota', 'buku', 'datas'));
     }
+
+    public function index1()
+    {
+        $transaksi = Transaksi::get();
+        $anggota   = Anggota::get();
+        $buku      = Buku::get();
+        if(Auth::user()->level == 'user')
+        {
+            $datas = Transaksi::where('status', 'pinjam')
+                                ->where('anggota_id', Auth::user()->anggota->id)
+                                ->get();
+        } else {
+            $datas = Transaksi::where('status', 'pinjam')->get();
+        }
+        return view('home1', compact('transaksi', 'anggota', 'buku', 'datas'));
+    }
 }

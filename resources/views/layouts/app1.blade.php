@@ -61,9 +61,9 @@
               </a>
               @if(Auth::user()->level == 'admin')
               <a class="dropdown-item"   href="{{ route('home1') }}" style="margin-top: 20px;" href="{{route('user.edit', Auth::user()->id)}}">
-               Data
-               </a>
-               @endif
+                Data
+                </a>
+                @endif
               <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                  Sign Out
@@ -78,14 +78,8 @@
       </div>
     </nav>
     <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
-      <!-- partial:partials/_sidebar.html -->
-      
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-      @section('sidebar')
-          @include('layouts.sidebar',['user' => Auth::User()])
-      @show
-      </nav>
+  
+   
       <div class="main-panel">
         <div class="content-wrapper">
           @yield('content')

@@ -14097,12 +14097,12 @@ input:focus {
       background: #000; }
 
 /* style for off-canvas menu*/
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 0px) {
   .sidebar-offcanvas {
     position: fixed;
     max-height: calc(100vh - 63px);
     top: 63px;
-    bottom: 0;
+    bottom: 100px;
     overflow: auto;
     left: -255px;
     -webkit-transition: all 0.25s ease-out;
@@ -14465,8 +14465,8 @@ html {
 
 .content-wrapper {
   background: #f2f8f9;
-  padding: 1.5rem 1.7rem;
-  width: 100%;
+  padding: 2rem 2rem;
+  width: 120%;
   -webkit-flex-grow: 1;
   flex-grow: 1; }
 
