@@ -10,7 +10,7 @@
     <link href="artikel/css/A.jquery.mb.YTPlayer.min.css.pagespeed.cf.N2G3N4O1x5.css" media="all" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="artikel/css/A.style.css.pagespeed.cf.2yPk2cBvMB.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">

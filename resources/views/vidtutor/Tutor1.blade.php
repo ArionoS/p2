@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Askbootstrap">
@@ -20,11 +20,20 @@
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.theme.css">
 
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
+    <style>
+        p {
+            color: black;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-family: none;
+            font-size:15px;
+        }
+    </style>
 </head>
 
 <body id="page-top">
-<nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
+    <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
         &nbsp;&nbsp;
 
         <a class="navbar-brand mr-1" href="index.html">
@@ -69,7 +78,7 @@
     </nav>
 
     <div id="wrapper">
-        
+
         <div id="content-wrapper">
             <div class="container-fluid pb-0" style="padding-right: 30px; padding-left: 30px;">
                 <div class="video-block section-padding">
@@ -102,7 +111,7 @@
                             <div class="single-video-right">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        
+
                                         <div class="main-title">
                                             <div class="btn-group float-right right-action">
                                                 <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -245,7 +254,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
