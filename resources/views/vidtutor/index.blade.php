@@ -114,10 +114,10 @@
 
 
             <div class="center">
-                <div class="w3-content w3-section" style="max-width:100%;display:contents;">
-                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%;">
-                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:100%">
-                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
+                <div class="w3-content w3-section" style="max-width:200%;display:contents;">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:200%;">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:200%">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:200%">
 
                 </div>
             </div>
