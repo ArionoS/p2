@@ -17,6 +17,9 @@ Route::get('/welcome', function () {
     return view('Auth.welcome');
 });
 
+Route::get('/login1', function () {
+  return view('Auth.login1');
+});
 
 Route::get('shop.index/', function () {
     return view('shop.index');

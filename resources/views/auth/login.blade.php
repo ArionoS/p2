@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>GYM - LOGIN</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="{!! asset('logreg/stylelogin.css') !!}">
+  <link rel="icon" href="landing/images/new/logo2.png">
+
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <link rel="stylesheet" href="{{asset('vendors/iconfonts/mdi/css/materialdesignicons.min.css')}}">
   <link rel="stylesheet" href="{{asset('vendors/iconfonts/puse-icons-feather/feather.css')}}">
@@ -18,23 +23,20 @@
 </head>
 
 <body>
-<form method="POST" action="{{ route('login') }}">
+  <div class="container">
+
+    <div class="forms-container">
+        <div class="signin-signup">
+
+<form method="POST" action="{{ route('login') }}" class="sign-in-form">
 {{ csrf_field() }}
-  <div class="container-scroller">
-    <div class="container-fluid page-body-wrapper full-page-wrapper auth-page">
-      <div class="content-wrapper d-flex align-items-center auth theme-one">
-
-        <div class="row w-100">
-        <div class="col-md-12" style="margin-bottom: 20px;">
-        <h2 style="text-align: center;">NGE - GYM </h2>
-        </div>
-        <div class="col-lg-4 mx-auto">
-            <div class="auto-form-wrapper">
-
-                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}"">
+ 
+<h2 class="title">Sign in</h2>
+  
+                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                   <label class="label">Username</label>
                   <div class="input-group">
-                    <input id="email" type="text" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
+                    <input id="email" type="text" class="form-control" name="email" value="{{ old('email') }}" required autocomplete="username" autofocus>
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>

@@ -161,7 +161,7 @@
                           <form action="{{ route('transaksi.update', $data->id) }}" method="post" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             {{ method_field('put') }}
-                            <button class="btn btn-info btn-sm" onclick="return confirm('Anda yakin data ini sudah kembali?')">Sudah Kembali
+                            <button class="btn btn-info btn-sm" onclick="return confirm('Anda yakin data ini sudah selesai?')">Sudah Selesai
                             </button>
                           </form>
                           

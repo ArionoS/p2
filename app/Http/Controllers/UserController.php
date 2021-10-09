@@ -48,6 +48,14 @@ class UserController extends Controller
         return view('auth.register');
     }
 
+    public function create1()
+    {
+        if(Auth::user()->level == 'user') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
+        }
+        return view('auth.register1');
+    }
     /**
      * Store a newly created resource in storage.
      *
