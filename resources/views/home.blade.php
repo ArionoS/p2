@@ -84,7 +84,8 @@
 
               <li class="sc-hMqMXs LyYQD">
                 <a href="{{url('artikel.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
-                  <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_article_active.png?v=6" alt="Artikel" height="54" class="sc-jzJRlG jJeLuK" /></div>Artikel
+                  <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_article_active.png?v=6" alt="Artikel" height="54" class="sc-jzJRlG jJeLuK" /></div>
+                  Nutrisi
                 </a>
               </li>
 

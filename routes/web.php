@@ -50,6 +50,35 @@ Route::get('vidtutor.Tutor1/', function () {
     return view('vidtutor.Tutor1');
   });
   
+  Route::get('about-us/', function () {
+    return view('about-us');
+  });
+
+  Route::get('category/', function () {
+    return view('category');
+  });
+
+  Route::get('howitworks/', function () {
+    return view('howitworks');
+  });
+
+  Route::get('indexx/', function () {
+    return view('indexx');
+  });
+
+  Route::get('pricing/', function () {
+    return view('pricing');
+  });
+
+  Route::get('productpage/', function () {
+    return view('productpage');
+  });
+
+  Route::get('profile/', function () {
+    return view('profile');
+  });
+
+
 //Route::get('/home', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home1', 'HomeController@index1')->name('home1');
