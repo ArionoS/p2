@@ -57,54 +57,81 @@
             <div class="container">
                <div class="row clearfix">
                   <div class="find-box">
-                     <h1>Find your material needed<br>Come here</h1>
-                     <h4>Nge - Gym</h4>
                      
+                     <div class="row clearfix">
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="{{url('productpage/')}}">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/1.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/2.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/4.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/5.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/10.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/11.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/12.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           <a href="productpage.html">
+                              <div class="box-img">
+                                 <h4>Product</h4>
+                                 <img src="a/images/product/13.png" alt="" />
+                              </div>
+                           </a>
+                        </div>
+                        
+                     </div>
                   </div>
                </div>
             
             </div>
          </div>
       </div>
-      <div class="cat-main-box">
-         <div class="container">
-            <div class="row panel-row">
-               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.0s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="a/images/xpann-icon.jpg" class="icon-small" alt="">
-                        <h4>Learn</h4>
-                        <p>Grow easily with Nge-Gym. Create free account.
-                           We help expanding your training easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="a/images/create-icon.jpg" class="icon-small" alt="">
-                        <h4>Fail</h4>
-                        <p>Grow easily with Nge-Gym. Create free account.
-                           We help expanding your training easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6 wow fadeIn hidden-sm" data-wow-delay="0.4s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="a/images/get-icon.jpg" class="icon-small" alt="">
-                        <h4>Learn Again</h4>
-                        <p>Grow easily with Nge-Gym. Create free account.
-                           We help expanding your training easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+
      
       <div class="start-free-box">
          <div class="container">

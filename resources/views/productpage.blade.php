@@ -5,14 +5,14 @@
  <title>SAFARI BUSSINES </title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/animate-wow.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="css/slick.min.css">
-      <link rel="stylesheet" href="css/select2.min.css">
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="a/css/font-awesome.min.css">
+      <link rel="stylesheet" href="a/css/bootstrap.min.css">
+      <link rel="stylesheet" href="a/css/animate-wow.css">
+      <link rel="stylesheet" href="a/css/style.css">
+      <link rel="stylesheet" href="a/css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="a/css/slick.min.css">
+      <link rel="stylesheet" href="a/css/select2.min.css">
+      <link rel="stylesheet" href="a/css/responsive.css">
    </head>
    <body>
       <header id="header" class="top-head">
@@ -27,7 +27,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                        <a href="index.html" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
@@ -49,7 +49,7 @@
                            <div class="help-box">
                               <ul>
                                  <li> <a data-toggle="modal" data-target="#myModal" href="profile.html"> <span>Profile</span> <img  alt="" /> </a> </li>
-                                 <li> <a href="pricing.html"><img class="h-i" src="images/help-icon.png" alt="" /> Pricing </a> </li>
+                                 <li> <a href="pricing.html"><img class="h-i" src="a/images/help-icon.png" alt="" /> Pricing </a> </li>
                               </ul>
                            </div>
                         </div>
@@ -76,8 +76,8 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="about-us.html"><img src="images/help-icon.png" alt="" /> About US</a></li>
-                     <li><a href="category.html"><img src="images/help-icon.png" alt="" /> Category </a></li>
+                     <li><a href="about-us.html"><img src="a/images/help-icon.png" alt="" /> About US</a></li>
+                     <li><a href="category.html"><img src="a/images/help-icon.png" alt="" /> Category </a></li>
                   </ul>
                </div>
             </div>
@@ -118,7 +118,7 @@
                <div class="col-md-2 col-sm-4">
                   <div class="left-profile-box-m prod-page">
                      <div class="pro-img">
-                        <img src="images/150x150.png" alt="#" />
+                        <img src="a/images/150x150.png" alt="#" />
                      </div>
                      <div class="pof-text">
                         <h3>Morgan Mobilya</h3>
@@ -133,16 +133,16 @@
                         <div class="page-preview">
                            <div class="preview">
                               <div class="preview-pic tab-content">
-                                 <div class="tab-pane active" id="pic-1"><img src="images/lag-60.png" alt="#" /></div>
-                                 <div class="tab-pane" id="pic-2"><img src="images/lag-61.png" alt="#" /></div>
-                                 <div class="tab-pane" id="pic-3"><img src="images/lag-60.png" alt="#" /></div>
-                                 <div class="tab-pane" id="pic-4"><img src="images/lag-61.png" alt="#" /></div>
+                                 <div class="tab-pane active" id="pic-1"><img src="a/images/lag-60.png" alt="#" /></div>
+                                 <div class="tab-pane" id="pic-2"><img src="a/images/lag-61.png" alt="#" /></div>
+                                 <div class="tab-pane" id="pic-3"><img src="a/images/lag-60.png" alt="#" /></div>
+                                 <div class="tab-pane" id="pic-4"><img src="a/images/lag-61.png" alt="#" /></div>
                               </div>
                               <ul class="preview-thumbnail nav nav-tabs">
-                                 <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/lag-60.png" alt="#" /></a></li>
-                                 <li><a data-target="#pic-2" data-toggle="tab"><img src="images/lag-61.png" alt="#" /></a></li>
-                                 <li><a data-target="#pic-3" data-toggle="tab"><img src="images/lag-60.png" alt="#" /></a></li>
-                                 <li><a data-target="#pic-4" data-toggle="tab"><img src="images/lag-61.png" alt="#" /></a></li>
+                                 <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="a/images/lag-60.png" alt="#" /></a></li>
+                                 <li><a data-target="#pic-2" data-toggle="tab"><img src="a/images/lag-61.png" alt="#" /></a></li>
+                                 <li><a data-target="#pic-3" data-toggle="tab"><img src="a/images/lag-60.png" alt="#" /></a></li>
+                                 <li><a data-target="#pic-4" data-toggle="tab"><img src="a/images/lag-61.png" alt="#" /></a></li>
                               </ul>
                            </div>
                         </div>
@@ -158,22 +158,22 @@
                               <div class="like-list">
                                  <ul>
                                     <li>
-                                       <div class="im-b"><img class="" src="images/list-img-01.png" alt=""></div>
+                                       <div class="im-b"><img class="" src="a/images/list-img-01.png" alt=""></div>
                                     </li>
                                     <li>
-                                       <div class="im-b"><img src="images/list-img-02.png" alt=""></div>
+                                       <div class="im-b"><img src="a/images/list-img-02.png" alt=""></div>
                                     </li>
                                     <li>
-                                       <div class="im-b"><img src="images/list-img-03.png" alt=""></div>
+                                       <div class="im-b"><img src="a/images/list-img-03.png" alt=""></div>
                                     </li>
                                     <li>
-                                       <div class="im-b"><img src="images/list-img-04.png" alt=""></div>
+                                       <div class="im-b"><img src="a/images/list-img-04.png" alt=""></div>
                                     </li>
                                     <li>
-                                       <div class="im-b"><img src="images/list-img-05.png" alt=""></div>
+                                       <div class="im-b"><img src="a/images/list-img-05.png" alt=""></div>
                                     </li>
                                     <li>
-                                       <div class="im-b"><img src="images/list-img-06.png" alt=""></div>
+                                       <div class="im-b"><img src="a/images/list-img-06.png" alt=""></div>
                                     </li>
                                     <li>
                                        <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
@@ -272,7 +272,7 @@
                         <div class="col-md-6">
                            <div class="small-box-c">
                               <div class="small-img-b">
-                                 <img class="img-responsive" src="images/tr1.png" alt="#" />
+                                 <img class="img-responsive" src="a/images/tr1.png" alt="#" />
                               </div>
                               <div class="dit-t clearfix">
                                  <div class="left-ti">
@@ -291,7 +291,7 @@
                         <div class="col-md-6">
                            <div class="small-box-c">
                               <div class="small-img-b">
-                                 <img class="img-responsive" src="images/tr2.png" alt="#" />
+                                 <img class="img-responsive" src="a/images/tr2.png" alt="#" />
                               </div>
                               <div class="dit-t clearfix">
                                  <div class="left-ti">
@@ -312,7 +312,7 @@
                         <div class="col-md-6">
                            <div class="small-box-c">
                               <div class="small-img-b">
-                                 <img class="img-responsive" src="images/tr3.png" alt="#" />
+                                 <img class="img-responsive" src="a/images/tr3.png" alt="#" />
                               </div>
                               <div class="dit-t clearfix">
                                  <div class="left-ti">
@@ -331,7 +331,7 @@
                         <div class="col-md-6">
                            <div class="small-box-c">
                               <div class="small-img-b">
-                                 <img class="img-responsive" src="images/tr4.png" alt="#" />
+                                 <img class="img-responsive" src="a/images/tr4.png" alt="#" />
                               </div>
                               <div class="dit-t clearfix">
                                  <div class="left-ti">
@@ -475,7 +475,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                     <p><img width="90" src="a/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
@@ -501,19 +501,19 @@
                         </li>
                      </ul>
                      <ul class="right-flag">
-                        <li><a href="#"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
+                        <li><a href="#"><img src="a/images/flag.png" alt="" /> <span>Change</span></a></li>
                      </ul>
                   </div>
                </div>
             </div>
          </div>
       </footer>
-      <script src="js/jquery-1.12.4.min.js"></script> 
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script> 
-      <script src="js/select2.full.min.js"></script> 
-      <script src="js/wow.min.js"></script> 
-      <script src="js/custom.js"></script>
+      <script src="a/js/jquery-1.12.4.min.js"></script> 
+      <script src="a/js/bootstrap.min.js"></script> 
+      <script src="a/js/bootstrap-select.min.js"></script>
+      <script src="a/js/slick.min.js"></script> 
+      <script src="a/js/select2.full.min.js"></script> 
+      <script src="a/js/wow.min.js"></script> 
+      <script src="a/js/custom.js"></script>
    </body>
 </html>

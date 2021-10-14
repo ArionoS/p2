@@ -78,6 +78,9 @@ Route::get('vidtutor.Tutor1/', function () {
     return view('profile');
   });
 
+  Route::get('index/', function () {
+    return view('index');
+  });
 
 //Route::get('/home', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
