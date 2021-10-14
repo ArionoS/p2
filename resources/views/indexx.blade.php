@@ -73,9 +73,9 @@
                   <div class="panel panel-default">
                      <div class="panel-body">
                         <img src="a/images/xpann-icon.jpg" class="icon-small" alt="">
-                        <h4>“Chamb” Your Business</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
+                        <h4>Learn</h4>
+                        <p>Grow easily with Nge-Gym. Create free account.
+                           We help expanding your training easily.
                         </p>
                      </div>
                   </div>
@@ -84,9 +84,9 @@
                   <div class="panel panel-default">
                      <div class="panel-body">
                         <img src="a/images/create-icon.jpg" class="icon-small" alt="">
-                        <h4>Create and add</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
+                        <h4>Fail</h4>
+                        <p>Grow easily with Nge-Gym. Create free account.
+                           We help expanding your training easily.
                         </p>
                      </div>
                   </div>
@@ -95,9 +95,9 @@
                   <div class="panel panel-default">
                      <div class="panel-body">
                         <img src="a/images/get-icon.jpg" class="icon-small" alt="">
-                        <h4>Get inspired</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
+                        <h4>Learn Again</h4>
+                        <p>Grow easily with Nge-Gym. Create free account.
+                           We help expanding your training easily.
                         </p>
                      </div>
                   </div>
@@ -105,56 +105,11 @@
             </div>
          </div>
       </div>
-      <div class="products_exciting_box">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                  <div class="exciting_box f_pd">
-                     <img src="a/images/exciting_img-01.jpg" class="icon-small" alt="" />
-                     <h4>Explore <strong>exciting</strong> and exotic products
-                        tailored to you.
-                     </h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                  <div class="exciting_box l_pd">
-                     <img src="a/images/exciting_img-02.jpg" class="icon-small" alt="" />
-                     <h4><strong>List your products on</strong> chamb and grow connections.</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+     
       <div class="start-free-box">
          <div class="container">
             <div class="row">
-               <div class="container">
-                  <div class="main-start-box">
-                     <div class="free-box-a clearfix">
-                        <div class="col-md-6 col-sm-6">
-                           <div class="left-a-f">
-                              <h3>A platform built for scale & expansion. Start for free.</h3>
-                           </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                           <div class="right-a-f">
-                              <p>Over the comming years, way thet business through the web
-                                 works will change at agreat - and chamb is the
-                                 gamebreaker.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+  
             </div>
             <div class="row">
                <div class="main-start-box">
@@ -174,7 +129,7 @@
                               </h2>
                               <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
                               </p>
-                              <a href="#">Create a buyer account</a>
+                              <a href="#">Get It</a>
                            </div>
                         </div>
 
@@ -183,7 +138,7 @@
                               <div class="bg_img_left"><img src="a/images/bg_img1.png" alt="#" /></div>
                               <div class="container">
                                  <div class="buyer-box clearfix">
-                                    <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.6s">
                                        <div class="left-buyer">
                                           <img class="img-responsive" src="landing2/demo-categories/gym/images/03.jpg" alt="#" />
                                        </div>
@@ -196,7 +151,7 @@
                                           </h2>
                                           <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
                                           </p>
-                                          <a href="#">Create a buyer account</a>
+                                          <a href="#">Get It</a>
                                        </div>
                                     </div>
 
@@ -218,7 +173,7 @@
                                                       </h2>
                                                       <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
                                                       </p>
-                                                      <a href="#">Create a buyer account</a>
+                                                      <a href="#">Get It</a>
                                                    </div>
                                                 </div>
 
@@ -240,7 +195,7 @@
                                                                   </h2>
                                                                   <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
                                                                   </p>
-                                                                  <a href="#">Create a buyer account</a>
+                                                                  <a href="#">Get It</a>
                                                                </div>
                                                             </div>
                                                          </div>
@@ -256,15 +211,13 @@
                      <div class="supplier clearfix">
                         <div class="col-md-5 col-sm-6">
                            <div class="left-supplier">
-                              <h4>supplier</h4>
-                              <h2>Grow your store <br><span>With a new sales channel</span></h2>
-                              <p>Never worry about sales or income ftom outbound
-                                 channels. with chamb your store is directly
-                                 connected to thousands of interested in your
-                                 products.
+                              <h4>Tutorial</h4>
+                              <h2>Grow your body <br><span>With a tutorial</span></h2>
+                              <p>Never worry about fail with Nge-Gym App your body is directly
+                                 perfect
                               </p>
                               .
-                              <a href="#">Create a supplier account</a>
+                              <a href="#">Get It</a>
                            </div>
                         </div>
                         <div class="col-md-7 col-sm-6">
@@ -278,7 +231,7 @@
             </div>
          </div>
       </div>
-      
+    
       <script src="a/js/jquery-1.12.4.min.js"></script> 
       <script src="a/js/bootstrap.min.js"></script> 
       <script src="a/js/bootstrap-select.min.js"></script>
