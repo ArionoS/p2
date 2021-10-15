@@ -143,6 +143,7 @@
             position: relative;
             box-sizing: border-box;
             width: 100%;
+            background: white;
         }
 
         .eVUmzQ {
@@ -174,10 +175,7 @@
             width: 100%;
         }
 
-        .jFUHQI.jFUHQI.jFUHQI {
-            margin-top: 110px;
-        }
-
+  
         .gIOlFP {
             position: relative;
             box-sizing: border-box;
@@ -1537,6 +1535,7 @@
             flex: 0 0 auto;
             width: auto;
             max-width: none;
+            background: white;
         }
 
         .rRICf {
