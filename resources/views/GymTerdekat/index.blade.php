@@ -42,7 +42,7 @@
     <!-- Custom fonts for this template-->
     <link href="vidtutor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
     <link rel="stylesheet" href="{!! asset('gymterdekat/style.css') !!}">
 
 

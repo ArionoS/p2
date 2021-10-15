@@ -24,7 +24,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
     <link rel="stylesheet" href="shop/css/bootstrap.min.css%2bfont-awesome.min.css%2belegant-icons.css%2bnice-select.css%2bjquery-ui.min.css%2bowl.carousel.min.css%2bslicknav.min.css%2bstyle.css.pagespeed.cc.4YNTZ7I7f2.css" type="text/css" />
 </head>
 

@@ -35,7 +35,7 @@
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-Regular-v9.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-SemiBold-v9.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/sehatq/font-sehatq.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
     <link rel="stylesheet" href="{!! asset('konsultasi/style.css') !!}">
 </head>
 
