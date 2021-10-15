@@ -24,15 +24,16 @@
   <!-- endinject -->
   <link rel="shortcut icon" href="{{asset('favicon.ico')}}" />
 </head>
+
 <body>
-    <div class="container-scroller">
+  <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
         <a class="navbar-brand brand-logo" href="" style="color: #2d2d2d">
-        NGE - GYM 
+          NGE - GYM
         </a>
-           <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
           <span class="icon-menu"></span>
           <i class="fa fa-align-justify" style="color: #fff;"></i>
         </button>
@@ -40,40 +41,40 @@
 
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-right">
-         
+
           <li class="nav-item dropdown d-xl-inline-block">
             <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
               <span class="profile-text">Hello, {{Auth::user()->name}} !</span>
-                @if(Auth::user()->gambar == '')
-                  <img class="img-xs rounded-circle"  src="{{asset('images/user/default.png')}}" alt="profile image">
-                @else
-                <img class="img-xs rounded-circle"  src="{{asset('images/user/'.Auth::user()->gambar)}}" alt="profile image">
-                @endif
+              @if(Auth::user()->gambar == '')
+              <img class="img-xs rounded-circle" src="{{asset('images/user/default.png')}}" alt="profile image">
+              @else
+              <img class="img-xs rounded-circle" src="{{asset('images/user/'.Auth::user()->gambar)}}" alt="profile image">
+              @endif
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
               <a class="dropdown-item p-0">
                 <div class="d-flex border-bottom">
-                 
+
                 </div>
               </a>
               <a class="dropdown-item" style="margin-top: 20px;" href="{{route('home', Auth::user()->id)}}">
                 Dashboard
-                 </a>
+              </a>
               <a class="dropdown-item" style="margin-top: 20px;" href="{{route('user.edit', Auth::user()->id)}}">
-               Edit Profile
+                Edit Profile
               </a>
               @if(Auth::user()->level == 'admin')
-              <a class="dropdown-item"   href="{{ route('home1') }}" style="margin-top: 20px;" href="{{route('user.edit', Auth::user()->id)}}">
+              <a class="dropdown-item" href="{{ route('home1') }}" style="margin-top: 20px;" href="{{route('user.edit', Auth::user()->id)}}">
                 Data
-                </a>
-                @endif
+              </a>
+              @endif
               <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                 Sign Out
+                Sign Out
 
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  {{ csrf_field() }}
+                </form>
               </a>
             </div>
           </li>
@@ -81,24 +82,28 @@
       </div>
     </nav>
     <!-- partial -->
-  
-   
-      <div class="main-panel">
-        <div class="content-wrapper">
-          @yield('content')
 
-        </div>
-        <footer class="footer">
-          <div class="container-fluid clearfix">
-            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © {{date('Y')}}
-            <a href="Perpus Polinema" target="_blank">Ariono Dan Rajen</a>. All rights reserved.</span>
-          </div>
-        </footer>
-        <!-- partial -->
+
+    <div class="main-panel">
+      <div class="content-wrapper">
+        @yield('content')
+
       </div>
-      <!-- main-panel ends -->
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+
+      <footer class="footer">
+        <div class="container-fluid clearfix">
+          <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © {{date('Y')}}
+            <a href="{{ route('home') }}" target="_blank">Ariono Dan Rajen</a>. All rights reserved.</span>
+        </div>
+      </footer>
+      <!-- partial -->
     </div>
-    <!-- page-body-wrapper ends -->
+    <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
   </div>
   <script src="{{asset('vendors/js/vendor.bundle.base.js')}}"></script>
   <script src="{{asset('vendors/js/vendor.bundle.addons.js')}}"></script>
@@ -116,5 +121,3 @@
 </body>
 
 </html>
-                         
-   

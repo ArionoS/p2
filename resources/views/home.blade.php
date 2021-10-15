@@ -76,17 +76,19 @@
         <div class="sc-htpNat ctiRpM">
           <nav class="sc-ckVGcZ gbheBT">
             <ul class="sc-jKJlTe kOFaVA">
+              <!--
               <li class="sc-hMqMXs LyYQD">
                 <a href="{{url('shop.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_toko_active.png?v=6" alt="Toko" height="54" class="sc-jzJRlG jJeLuK" />
                   </div>Toko Suplement
                 </a>
               </li>
+              -->
 
               <li class="sc-hMqMXs LyYQD">
                 <a href="{{url('indexx/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_article_active.png?v=6" alt="Artikel" height="54" class="sc-jzJRlG jJeLuK" /></div>
-                  Nutrisi
+                  Nutrisi & Tips
                 </a>
               </li>
 
@@ -104,7 +106,7 @@
                   </div>Gym Terdekat
                 </a></li>
 
-
+              <!--
               <li class="sc-hMqMXs LyYQD"><a href="{{url('cekkal.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI">
                     <img src="landing/images/new/food.png" alt="Promo" height="54" class="sc-jzJRlG jJeLuK" />
@@ -118,6 +120,7 @@
                   </div>Gym Tips & Teknik
                 </a>
               </li>
+              -->
 
           </nav>
         </div>

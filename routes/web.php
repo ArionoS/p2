@@ -70,17 +70,34 @@ Route::get('vidtutor.Tutor1/', function () {
     return view('pricing');
   });
 
-  Route::get('productpage/', function () {
-    return view('productpage');
+  //Materi
+  Route::get('materi.index/', function () {
+    return view('materi.index');
   });
+  Route::get('materi.pushup/', function () {
+    return view('materi.pushup');
+  });
+  Route::get('materi.dipssq/', function () {
+    return view('materi.dipssq');
+  });
+  Route::get('materi.jumpj/', function () {
+    return view('materi.jumpj');
+  });
+  Route::get('materi.pullup/', function () {
+    return view('materi.pullup');
+  });
+  Route::get('materi.situp/', function () {
+    return view('materi.situp');
+  });
+
+
+  //
 
   Route::get('profile/', function () {
     return view('profile');
   });
 
-  Route::get('index/', function () {
-    return view('index');
-  });
+
 
 //Route::get('/home', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
