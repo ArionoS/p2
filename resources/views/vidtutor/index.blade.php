@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.theme.css">
 
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
 
     <style>
         #owl-demo .tem img {
@@ -128,9 +128,9 @@
 
             <div class="center">
                 <div class="w3-content w3-section" style="max-width:200%;display:contents;">
-                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:200%;">
-                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:200%">
-                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:200%">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%;">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:100%">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
 
                 </div>
             </div>

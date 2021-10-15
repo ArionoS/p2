@@ -41,7 +41,7 @@
     <link rel="stylesheet" type="text/css" href="landing2/css/skins/skin-red.css" data-style="styles">
     <link rel="stylesheet" type="text/css" href="landing2/css/style-customizer.css">
 
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
 
     
 

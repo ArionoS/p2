@@ -38,7 +38,7 @@
     <link href="vidtutor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template-->
     <link href="vidtutor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
     <link rel="stylesheet" type="text/css" href="landing2/css/style.css">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
