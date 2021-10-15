@@ -59,7 +59,7 @@
 
             </div>
         </header>
-        <div id="content">
+        <div id="content" style="background: white;">
             <div style="text-align: center;margin-top: 10px;margin-bottom: 10px;" id='div-gpt-ad-8489992-1'>
                 <script>
                     googletag.cmd.push(function() {
