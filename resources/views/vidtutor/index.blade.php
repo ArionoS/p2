@@ -160,13 +160,13 @@
                         <div class="video-card">
                             <div class=" video-card-image">
                                 <a class="play-icon" href="{{url('vidtutor.Tutor1')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('vidtutor.Tutor1')}}"><img class="img-fluid" src="vidtutor/images/a.png" alt=""></a>
+                                <a href="{{url('vidtutor.Tutor1')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/01.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
 
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('vidtutor.Tutor1')}}">TUTOR 1 </a>
+                                    <a href="{{url('vidtutor.Tutor1')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Code Video <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -180,13 +180,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film2')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film2')}}"><img class="img-fluid" src="vidtutor/images/b.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor2')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor2')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/05.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film2')}}">JAVA</a>
+                                    <a href="{{url('vidtutor.Tutor2')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -200,13 +200,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film3')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film3')}}"><img class="img-fluid" src="vidtutor/images/c.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor3')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor3')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/02.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film3')}}">CSS</a>
+                                    <a href="{{url('vidtutor.Tutor3')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -220,13 +220,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film4')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film4')}}"><img class="img-fluid" src="vidtutor/images/d.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor4')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor4')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/06.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href=".{{url('fl.Film4')}}">SQL</a>
+                                    <a href=".{{url('vidtutor.Tutor4')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -240,13 +240,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image ">
-                                <a class="play-icon" href="{{url('fl.Film5')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film5')}}"><img class="img-fluid" src="vidtutor/images/e.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor5')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor5')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/05.jpg" alt=""></a>
                                 <div class="time">00:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film5')}}">JS</a>
+                                    <a href="{{url('vidtutor.Tutor5')}}">JS</a>
                                 </div>
                                 <div class="video-page text-danger">
                                     Cooming Soon Trailer Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Unverified"><i class="fas fa-frown text-danger"></i></a>
@@ -260,13 +260,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film6')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film6')}}"><img class="img-fluid" src="vidtutor/images/f.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor6')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor6')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/03.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film6')}}">PHP</a>
+                                    <a href="{{url('vidtutor.Tutor6')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -280,13 +280,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film7')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film7')}}"><img class="img-fluid" src="vidtutor/images/g.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor7')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor7')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/02.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film7')}}">Python</a>
+                                    <a href="{{url('vidtutor.Tutor7')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -300,13 +300,13 @@
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="video-card">
                             <div class="video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film8')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film8')}}"><img class="img-fluid" src="vidtutor/images/h.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor8')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor8')}}"><img class="img-fluid" src="landing2/demo-categories/gym/images/01.jpg" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film8')}}">C++</a>
+                                    <a href="{{url('fl.Film8')}}">TUTORIAL FITNESS</a>
                                 </div>
                                 <div class="video-page text-success">
                                     Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>

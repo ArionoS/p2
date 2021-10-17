@@ -25,6 +25,19 @@
   <link rel="shortcut icon" href="{{asset('favicon.ico')}}" />
 </head>
 <body>
+  <div class="sc-kpOJdX jdBprp">
+    <div class="sc-htpNat iZWQZt">
+      <form method="get" target="" action="#">
+        <div class="sc-iAyFgw bPzenj">
+          <div class="sc-hSdWYo fPDUWa">
+            <div class="sc-cvbbAY cTYILf"><i class="sc-EHOje lntAKA"></i></div>
+            <div class="sc-jlyJG jpaAuv"><input type="text" placeholder="Search For Info" value="" name="searchInput" autoComplete="off" class="sc-jAaTju ieDlNt" /></div>
+          </div>
+        </div><input type="submit" hidden="" />
+      </form>
+    </div>
+  </div>
+
     <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -37,6 +50,7 @@
           <i class="fa fa-align-justify" style="color: #fff;"></i>
         </button>
       </div>
+
 
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-right">

@@ -49,6 +49,34 @@ Route::get('vidtutor.index/', function () {
 Route::get('vidtutor.Tutor1/', function () {
     return view('vidtutor.Tutor1');
   });
+
+  Route::get('vidtutor.Tutor2/', function () {
+    return view('vidtutor.Tutor2');
+  });
+
+  Route::get('vidtutor.Tutor3/', function () {
+    return view('vidtutor.Tutor3');
+  });
+
+  Route::get('vidtutor.Tutor4/', function () {
+    return view('vidtutor.Tutor4');
+  });
+
+  Route::get('vidtutor.Tutor5/', function () {
+    return view('vidtutor.Tutor5');
+  });
+
+  Route::get('vidtutor.Tutor6/', function () {
+    return view('vidtutor.Tutor6');
+  });
+
+  Route::get('vidtutor.Tutor7/', function () {
+    return view('vidtutor.Tutor7');
+  });
+
+  Route::get('vidtutor.Tutor8/', function () {
+    return view('vidtutor.Tutor8');
+  });
   
   Route::get('about-us/', function () {
     return view('about-us');
@@ -97,7 +125,9 @@ Route::get('vidtutor.Tutor1/', function () {
     return view('profile');
   });
 
-
+  Route::get('transaksi.index/', function () {
+    return view('transaksi.index');
+  });
 
 //Route::get('/home', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');

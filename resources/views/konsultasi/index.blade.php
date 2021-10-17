@@ -56,9 +56,12 @@
                                         <p class="sc-gZMcBi jPfrZF">Konsultasi kesehatan, Teknik Gym dan lainnya</p>
                                     </div>
                                 </div>
-                                <div class="sc-kpOJdX kHHyUN">
-                                    <button id="freeChatButton" class="sc-bxivhb fZDqdL sc-ifAKCX gpzUaD">Chat Trainer Gratis</button>
-                                </div>
+                                <li class="nav-item {{ setActive(['transaksi*']) }}">
+                                    <a class="nav-link" href="{{route('transaksi.index')}}">
+                                      <i class="menu-icon mdi mdi-backup-restore"></i>
+                                      <button id="freeChatButton"  class="sc-bxivhb fZDqdL sc-ifAKCX gpzUaD">Konsultasi</button>
+                                    </a>
+                                  </li>
                             </div>
                         </div>
 
@@ -75,7 +78,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/hisar-daniel-spm.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
                                                                     <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Hisar Daniel, Sp.M</h3><span class="sc-gZMcBi cKuViW">Spesialis Mata</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
+                                                                        <h3 class="sc-gZMcBi guRvVL poppins">Hisar Daniel</h3><span class="sc-gZMcBi cKuViW">Spesialis Kalestenik</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
                                                                         <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
                                                                                 <g fill="none" fill-rule="evenodd">
                                                                                     <path d="M0 0h14v14H0z"></path>
@@ -104,7 +107,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/hisar-daniel-spm.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 50.000</span><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Video Chat</button></a></div>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,7 +121,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/stumpal-andreas-c-mkedped-spa.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
                                                                     <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. S.Tumpal Andreas C, M.Ked(Ped), Sp.A</h3><span class="sc-gZMcBi cKuViW">Spesialis Anak</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
+                                                                        <h3 class="sc-gZMcBi guRvVL poppins">Sumpal Andreas</h3><span class="sc-gZMcBi cKuViW">Spesialis Kalestenik</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
                                                                         <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
                                                                                 <g fill="none" fill-rule="evenodd">
                                                                                     <path d="M0 0h14v14H0z"></path>
@@ -147,7 +150,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/stumpal-andreas-c-mkedped-spa.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 50.000</span><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Video Chat</button></a></div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -161,7 +164,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/hari-darmawan-spkk.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
                                                                     <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Hari Darmawan, Sp.KK</h3><span class="sc-gZMcBi cKuViW">Spesialis Kulit</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
+                                                                        <h3 class="sc-gZMcBi guRvVL poppins">Hari Darmawan</h3><span class="sc-gZMcBi cKuViW">Spesialis Kalestenik</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
                                                                         <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
                                                                                 <g fill="none" fill-rule="evenodd">
                                                                                     <path d="M0 0h14v14H0z"></path>
@@ -190,7 +193,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/hari-darmawan-spkk.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 50.000</span><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Video Chat</button></a></div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -204,7 +207,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/farah-36.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
                                                                     <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Farahdissa Anggreaini</h3><span class="sc-gZMcBi cKuViW">Dokter Umum</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
+                                                                        <h3 class="sc-gZMcBi guRvVL poppins">Fara Anggraeni</h3><span class="sc-gZMcBi cKuViW">Spesialis Kalestenik</span><span class="sc-gZMcBi iqzfMZ">SehatQ</span>
                                                                         <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
                                                                                 <g fill="none" fill-rule="evenodd">
                                                                                     <path d="M0 0h14v14H0z"></path>
@@ -233,7 +236,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/farah-36.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 30.000</span><span class="sc-gZMcBi fInzNX">Rp 20.000</span></a></div>
                                                         </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Video Chat</button></a></div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -247,7 +250,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/muhammad-fikri-fadli.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
                                                                     <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Muhammad Fikri Fadli</h3><span class="sc-gZMcBi cKuViW">Dokter Umum</span><span class="sc-gZMcBi iqzfMZ">Praktek dr. M. Fikri Fadli</span>
+                                                                        <h3 class="sc-gZMcBi guRvVL poppins">Fikri Fadli</h3><span class="sc-gZMcBi cKuViW">Spesialis Kalestenik</span><span class="sc-gZMcBi iqzfMZ">Praktek dr. M. Fikri Fadli</span>
                                                                         <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
                                                                                 <g fill="none" fill-rule="evenodd">
                                                                                     <path d="M0 0h14v14H0z"></path>
@@ -272,7 +275,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/muhammad-fikri-fadli.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 20.000</span></a></div>
                                                         </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Video Chat</button></a></div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,7 +289,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/cecilia-sagita-m-psi-psikolog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
                                                                     <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins"> Cecilia Sagita, M. Psi., Psikolog</h3><span class="sc-gZMcBi cKuViW">Spesialis Psikolog</span><span class="sc-gZMcBi iqzfMZ">Nest Indonesia (Lembaga Psikologi)</span>
+                                                                        <h3 class="sc-gZMcBi guRvVL poppins"> Cecilia Anggraeni</h3><span class="sc-gZMcBi cKuViW">Spesialis Kalestenik</span><span class="sc-gZMcBi iqzfMZ">Nest Indonesia (Lembaga Psikologi)</span>
                                                                         <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
                                                                                 <g fill="none" fill-rule="evenodd">
                                                                                     <path d="M0 0h14v14H0z"></path>
@@ -313,568 +316,15 @@
                                                     </div>
                                                     <div class="sc-kGXeez iSeAmE">
                                                         <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/cecilia-sagita-m-psi-psikolog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 200.000</span></a></div>
+                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/cecilia-sagita-m-psi-psikolog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/dra-yulia-indarsih-psi.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins"> Dra. Yulia Indarsih, Psi</h3><span class="sc-gZMcBi cKuViW">Spesialis Psikolog</span><span class="sc-gZMcBi iqzfMZ">Klinik Utama Bunda Nanda</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->35 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/dra-yulia-indarsih-psi.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt=" Dra. Yulia Indarsih, Psi" src="https://static.sehatq.com/telemed/profile/20210715183852" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/dra-yulia-indarsih-psi.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 120.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/dody-ranuhardy-sppd-khom-finasim-mph.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Dody Ranuhardy, Sp.PD-KHOM, FINASIM, MPH</h3><span class="sc-gZMcBi cKuViW">Spesialis Penyakit Dalam</span><span class="sc-gZMcBi iqzfMZ">Eka Hospital Bekasi</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->32 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/dody-ranuhardy-sppd-khom-finasim-mph.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Dody Ranuhardy, Sp.PD-KHOM, FINASIM, MPH" src="https://static.sehatq.com/telemed/profile/20210723150720" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/dody-ranuhardy-sppd-khom-finasim-mph.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 350.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/d-r-b-sotarduga-hasibuan-spb.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. D. R. B. Sotarduga Hasibuan, Sp.B</h3><span class="sc-gZMcBi cKuViW">Spesialis Bedah</span><span class="sc-gZMcBi iqzfMZ">Metro Hospital Cikupa</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->30 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/d-r-b-sotarduga-hasibuan-spb.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. D. R. B. Sotarduga Hasibuan, Sp.B" src="https://static.sehatq.com/telemed/profile/20210218163127" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/d-r-b-sotarduga-hasibuan-spb.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 150.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/purnomo-limanto-spog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Purnomo Limanto, Sp.OG</h3><span class="sc-gZMcBi cKuViW">Spesialis Kandungan</span><span class="sc-gZMcBi iqzfMZ">RSIA Puri Malang</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->30 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/purnomo-limanto-spog.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Purnomo Limanto, Sp.OG" src="https://static.sehatq.com/telemed/profile/20210527094523" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/purnomo-limanto-spog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 120.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/aagn-asmarajaya-spb-spbp.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. A.A.G.N. Asmarajaya, Sp.B, Sp.BP</h3><span class="sc-gZMcBi cKuViW">Spesialis Bedah Plastik</span><span class="sc-gZMcBi iqzfMZ">Klinik Kenak Medika</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->30 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/aagn-asmarajaya-spb-spbp.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. A.A.G.N. Asmarajaya, Sp.B, Sp.BP" src="https://static.sehatq.com/telemed/profile/20210607171300" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/aagn-asmarajaya-spb-spbp.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 140.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/maulana-suryamin-sppd-kgeh.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Maulana Suryamin, Sp.PD-KGEH</h3><span class="sc-gZMcBi cKuViW">Spesialis Gastroenterologi</span><span class="sc-gZMcBi iqzfMZ">Eka Hospital Bekasi</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->29 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/maulana-suryamin-sppd-kgeh.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Maulana Suryamin, Sp.PD-KGEH" src="https://static.sehatq.com/telemed/profile/20210723153745" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/maulana-suryamin-sppd-kgeh.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 350.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/iphigenia-margaretha-ganap-spkg-mars.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">drg. Iphigenia Margaretha Ganap, Sp.KG, MARS</h3><span class="sc-gZMcBi cKuViW">Spesialis Gigi</span><span class="sc-gZMcBi iqzfMZ">Nirmala Dental Clinic</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->28 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                        <div class="sc-bdVaJa haHzMJ"><i class="sc-EHOje cykJDY"></i><span class="sc-gZMcBi eclwgZ">5</span><span class="sc-gZMcBi kZoqOI">(
-                                                                                <!-- -->2
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/iphigenia-margaretha-ganap-spkg-mars.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="drg. Iphigenia Margaretha Ganap, Sp.KG, MARS" src="https://static.sehatq.com/telemed/profile/20210210135358" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/iphigenia-margaretha-ganap-spkg-mars.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 30.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/iman-solichin-spotkspine.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Iman Solichin, Sp.OT(K)Spine</h3><span class="sc-gZMcBi cKuViW">Spesialis Ortopedi</span><span class="sc-gZMcBi iqzfMZ">RS Orthopaedi Purwokerto</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->28 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/iman-solichin-spotkspine.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Iman Solichin, Sp.OT(K)Spine" src="https://static.sehatq.com/telemed/profile/20210715120135" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/iman-solichin-spotkspine.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 150.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/tri-apriliawan-bendarto-rahardjo-spogkonk.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Tri Apriliawan Bendarto Rahardjo, Sp.OG(K)Onk</h3><span class="sc-gZMcBi cKuViW">Spesialis Kandungan</span><span class="sc-gZMcBi iqzfMZ">Eka Hospital Bekasi</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->26 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/tri-apriliawan-bendarto-rahardjo-spogkonk.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Tri Apriliawan Bendarto Rahardjo, Sp.OG(K)Onk" src="https://static.sehatq.com/telemed/profile/20210723155228" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/tri-apriliawan-bendarto-rahardjo-spogkonk.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 350.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/tubagus-muhamad-pung-purnama-sastradiwirja-spog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Tubagus Muhamad Pung Purnama Sastradiwirja, Sp.OG</h3><span class="sc-gZMcBi cKuViW">Spesialis Kandungan</span><span class="sc-gZMcBi iqzfMZ">Klinik Utama Bunda Nanda</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->26 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/tubagus-muhamad-pung-purnama-sastradiwirja-spog.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Tubagus Muhamad Pung Purnama Sastradiwirja, Sp.OG" src="https://static.sehatq.com/telemed/profile/20210715175146" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/tubagus-muhamad-pung-purnama-sastradiwirja-spog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 120.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/achmad-agus-sudarwin-haryanto-spb.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Achmad Agus Sudarwin Haryanto, Sp.B</h3><span class="sc-gZMcBi cKuViW">Spesialis Bedah</span><span class="sc-gZMcBi iqzfMZ">RS Mustika Medika</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->24 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/achmad-agus-sudarwin-haryanto-spb.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Achmad Agus Sudarwin Haryanto, Sp.B" src="https://static.sehatq.com/telemed/profile/20210310072357" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/achmad-agus-sudarwin-haryanto-spb.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 150.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/mira-ikawati-spkk-finsdv.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. Mira Ikawati, Sp.KK, FINSDV</h3><span class="sc-gZMcBi cKuViW">Spesialis Kulit</span><span class="sc-gZMcBi iqzfMZ">Klinik Utama M3 Bogor</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->24 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                        <div class="sc-bdVaJa haHzMJ"><i class="sc-EHOje cykJDY"></i><span class="sc-gZMcBi eclwgZ">5</span><span class="sc-gZMcBi kZoqOI">(
-                                                                                <!-- -->5
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/mira-ikawati-spkk-finsdv.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Mira Ikawati, Sp.KK, FINSDV" src="https://static.sehatq.com/telemed/profile/20210406171856" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/mira-ikawati-spkk-finsdv.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 150.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat tzMlU">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/i-gusti-ngurah-adhiartha-sppd-kemd-finasim.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">dr. I Gusti Ngurah Adhiartha, Sp.PD-KEMD, FINASIM</h3><span class="sc-gZMcBi cKuViW">Spesialis Penyakit Dalam</span><span class="sc-gZMcBi iqzfMZ">Eka Hospital Bekasi</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->24 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/i-gusti-ngurah-adhiartha-sppd-kemd-finasim.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. I Gusti Ngurah Adhiartha, Sp.PD-KEMD, FINASIM" src="https://static.sehatq.com/telemed/profile/20210723161310" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/i-gusti-ngurah-adhiartha-sppd-kemd-finasim.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 350.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sc-kpOJdX fkaQQm">
-                                        <div class="sc-htpNat gjzfoX">
-                                            <div class="sc-htpNat dyOqX">
-                                                <div class="sc-htpNat iZWQZt">
-                                                    <div class="sc-kGXeez gBesWK">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/melianawati.html" class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                                                                    <div class="sc-htpNat iZWQZt">
-                                                                        <h3 class="sc-gZMcBi guRvVL poppins">drg. Melianawati</h3><span class="sc-gZMcBi cKuViW">Spesialis Gigi</span><span class="sc-gZMcBi iqzfMZ">Klinik Insani Medika Babelan</span>
-                                                                        <div class="sc-bdVaJa gAfqIm"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="sc-elJkPf gjJYmt">
-                                                                                <g fill="none" fill-rule="evenodd">
-                                                                                    <path d="M0 0h14v14H0z"></path>
-                                                                                    <path fill="#2b8e8e" d="M9.672 8.97c0 .12-.097.217-.216.217H8.053v1.402c0 .12-.096.216-.215.216H6.163a.216.216 0 01-.216-.216V9.187H4.544a.216.216 0 01-.216-.216V7.296c0-.12.097-.216.216-.216h1.403V5.678c0-.12.096-.216.216-.216h1.675c.119 0 .215.097.215.216V7.08h1.403c.12 0 .216.097.216.216V8.97zm-.815-6.754v1.32H5.143v-1.32h3.714zm3.467 1.32H9.673V2.19a.79.79 0 00-.79-.79H5.117a.79.79 0 00-.79.79v1.346h-2.65a1.21 1.21 0 00-1.21 1.21v6.775c0 .668.541 1.21 1.21 1.21h10.647a1.21 1.21 0 001.21-1.21V4.746a1.21 1.21 0 00-1.21-1.21z"></path>
-                                                                                </g>
-                                                                            </svg><span class="sc-gZMcBi jjyVGF">(
-                                                                                <!-- -->23 Tahun
-                                                                                <!-- -->)
-                                                                            </span></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG">
-                                                            <div class="sc-htpNat hUdfYr"><a href="../dokter/melianawati.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="drg. Melianawati" src="https://static.sehatq.com/telemed/profile/20210527133837" height="80" width="80" class="sc-jzJRlG hwfehS" />
-                                                                        <div class="sc-kbGplQ bJXBxk"></div>
-                                                                    </div>
-                                                                </a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sc-kGXeez iSeAmE">
-                                                        <div class="sc-kpOJdX hRSNWf">
-                                                            <div class="sc-htpNat iZWQZt"><a href="../dokter/melianawati.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 40.000</span></a></div>
-                                                        </div>
-                                                        <div class="sc-kpOJdX iyOQEG"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function"><button class="sc-bxivhb bfsuRA sc-ifAKCX hPzDKy">Booking</button></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="sc-bdVaJa ibWqaM">

@@ -86,7 +86,7 @@
                         <div class="col-md-8">
                             <div class="single-video-left">
                                 <div class="single-video">
-                                    <video width="100%" height="315%" src="vidtutor/vid/1.mp4" frameborder="5" controls></video>
+                                    <video width="100%" height="315%" src="vidtutor/vid/5.mp4" frameborder="5" controls></video>
                                 </div>
                                 <div class="single-video-title box mb-3">
                                     <h2><a href="#">HTML </a><span title="" data-placement="top" data-toggle="tooltip" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></span></h2>

@@ -13,6 +13,7 @@
 @section('content')
 <html lang="id">
 
+
 <head>
   <meta charSet="utf-8" />
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -43,6 +44,7 @@
     }
   </style>
 
+
 </head>
 
 <body>
@@ -60,8 +62,8 @@
         <div class="sc-htpNat kxVdDs">
           <div class="sc-htpNat gMTZTI">
             <div class="slick-slider sc-kTUwUJ guxhfg home-banner-slider home-banner-main slick-initialized" dir="ltr">
-              <div class="w3-content w3-section" style="max-width:500px">
-                <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
+              <div class="w3-content w3-section" style="max-width:400px max-height:400px">
+                <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100% ;">
                 <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:100%">
                 <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
 
@@ -70,8 +72,11 @@
           </div>
         </div>
       </div>
-  </div>
+  </div><br><br><br><br>
+</div><br><br><br><br><hr>
 
+
+  
       <div class="sc-chPdSV ckEKKQ">
         <div class="sc-htpNat ctiRpM">
           <nav class="sc-ckVGcZ gbheBT">

@@ -172,79 +172,7 @@
                         </div>
                      </div>
 
-                     <div class="row">
-                        <div class="main-start-box">
-                           <div class="bg_img_left"><img src="a/images/bg_img1.png" alt="#" /></div>
-                           <div class="container">
-                              <div class="buyer-box clearfix">
-                                 <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.6s">
-                                    <div class="left-buyer">
-                                       <img class="img-responsive" src="landing2/demo-categories/gym/images/03.jpg" alt="#" />
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                                    <div class="right-buyer">
-                                       <h4>Nge-Gym</h4>
-                                       <h2>CALISTHENICS<br>
-                                          <span>With a many great tutorial</span>
-                                       </h2>
-                                       <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
-                                       </p>
-                                       <a href="#">Get It</a>
-                                    </div>
-                                 </div>
 
-                                 <div class="row">
-                                    <div class="main-start-box">
-                                       <div class="bg_img_left"><img src="a/images/bg_img1.png" alt="#" /></div>
-                                       <div class="container">
-                                          <div class="buyer-box clearfix">
-                                             <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                                                <div class="left-buyer">
-                                                   <img class="img-responsive" src="landing2/demo-categories/gym/images/03.jpg" alt="#" />
-                                                </div>
-                                             </div>
-                                             <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                                                <div class="right-buyer">
-                                                   <h4>Nge-Gym</h4>
-                                                   <h2>CALISTHENICS<br>
-                                                      <span>With a many great tutorial</span>
-                                                   </h2>
-                                                   <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
-                                                   </p>
-                                                   <a href="#">Get It</a>
-                                                </div>
-                                             </div>
-
-                                             <div class="row">
-                                                <div class="main-start-box">
-                                                   <div class="bg_img_left"><img src="a/images/bg_img1.png" alt="#" /></div>
-                                                   <div class="container">
-                                                      <div class="buyer-box clearfix">
-                                                         <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                                                            <div class="left-buyer">
-                                                               <img class="img-responsive" src="landing2/demo-categories/gym/images/03.jpg" alt="#" />
-                                                            </div>
-                                                         </div>
-                                                         <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                                                            <div class="right-buyer">
-                                                               <h4>Nge-Gym</h4>
-                                                               <h2>CALISTHENICS<br>
-                                                                  <span>With a many great tutorial</span>
-                                                               </h2>
-                                                               <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
-                                                               </p>
-                                                               <a href="#">Get It</a>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
                                     <div class="row">
                                        <div class="bg_img_right"><img src="a/images/bg_img1.png" alt="#" /></div>
                                        <div class="main-start-box">
