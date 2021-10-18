@@ -161,11 +161,12 @@
                             <li>
                                 <div class="dirpage-list-block clearfix">
                                     <a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" title="20FIT Pantai Indah Kapuk" class="dirpage-list-img-cont type2">
-                                        <img src="https://static.guesehat.com/static/directories_thumb/GHC00004_20FIT_Pantai_indah_kapuk.jpg" alt="20FIT Pantai Indah Kapuk"> </a>
+                                        <img src="konsultasi/wwwgym.jpg" alt="20FIT Pantai Indah Kapuk"> </a>
                                     <div class="dirpage-list-detail">
                                         <div class="dirpage-list-split clearfix">
                                             <div class="dirpage-list-split-main">
-                                                <h2 class="dirpage-list-title"><a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" title="20FIT Pantai Indah Kapuk">20FIT Pantai Indah Kapuk</a></h2>
+                                                <h2 class="dirpage-list-title"><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjCuIXm4dLzAhWOfSsKHZijAF0YABAAGgJzZg&sig=AOD64_1nRsofu6VOvFOhJJ9AGlR-rfKIQg&q=&ctype=99&ved=2ahUKEwi5nf7l4dLzAhXXH7cAHWi9DGQQhKwBegQIARAc&adurl=" 
+                                                title="20FIT Pantai Indah Kapuk">WWW GYM</a></h2>
                                                 <div class="dirpage-list-rating rating" data-star="0"></div>
                                                 <div class="dirpage-list-detail-block">
                                                     <h3 class="dirpage-list-subtitle mbtext-sm">Gym Dewasa</h3>
@@ -201,11 +202,12 @@
                             <li>
                                 <div class="dirpage-list-block clearfix">
                                     <a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" title="20FIT Pantai Indah Kapuk" class="dirpage-list-img-cont type2">
-                                        <img src="https://static.guesehat.com/static/directories_thumb/GHC00004_20FIT_Pantai_indah_kapuk.jpg" alt="20FIT Pantai Indah Kapuk"> </a>
+                                        <img src="konsultasi/power.jpg" alt="20FIT Pantai Indah Kapuk"> </a>
                                     <div class="dirpage-list-detail">
                                         <div class="dirpage-list-split clearfix">
                                             <div class="dirpage-list-split-main">
-                                                <h2 class="dirpage-list-title"><a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" title="20FIT Pantai Indah Kapuk">20FIT Pantai Indah Kapuk</a></h2>
+                                                <h2 class="dirpage-list-title"><a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" 
+                                                title="20FIT Pantai Indah Kapuk">NEW POWER GYM</a></h2>
                                                 <div class="dirpage-list-rating rating" data-star="0"></div>
                                                 <div class="dirpage-list-detail-block">
                                                     <h3 class="dirpage-list-subtitle mbtext-sm">Gym Dewasa</h3>
@@ -241,11 +243,12 @@
                             <li>
                                 <div class="dirpage-list-block clearfix">
                                     <a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" title="20FIT Pantai Indah Kapuk" class="dirpage-list-img-cont type2">
-                                        <img src="https://static.guesehat.com/static/directories_thumb/GHC00004_20FIT_Pantai_indah_kapuk.jpg" alt="20FIT Pantai Indah Kapuk"> </a>
+                                        <img src="konsultasi/prestige.jpg" alt="20FIT Pantai Indah Kapuk"> </a>
                                     <div class="dirpage-list-detail">
                                         <div class="dirpage-list-split clearfix">
                                             <div class="dirpage-list-split-main">
-                                                <h2 class="dirpage-list-title"><a href="https://www.guesehat.com/20fit-pantai-indah-kapuk" title="20FIT Pantai Indah Kapuk">20FIT Pantai Indah Kapuk</a></h2>
+                                                <h2 class="dirpage-list-title"><a href="https://www.guesehat.com/20fit-pantai-indah-kapuk"
+                                                 title="20FIT Pantai Indah Kapuk">PRESTIGE FITNESS MALANG</a></h2>
                                                 <div class="dirpage-list-rating rating" data-star="0"></div>
                                                 <div class="dirpage-list-detail-block">
                                                     <h3 class="dirpage-list-subtitle mbtext-sm">Gym Dewasa</h3>
