@@ -65,13 +65,13 @@
                      <div class="page-preview">
                         <div class="preview">
                            <div class="preview-pic tab-content">
-                              <div class="tab-pane active" id="pic-1"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/162/135/small/Free_Push_Up_Vector-01.jpg" alt="#" /></div>
-                              <div class="tab-pane" id="pic-2"><img src="https://cdn4.vectorstock.com/i/1000x1000/20/28/dynamic-clap-push-ups-sport-exersice-silhouettes-vector-23532028.jpg" alt="#" /></div>
+                              <div class="tab-pane active" id="pic-1"><img src="https://i2.wp.com/beritatangsel.com/wp-content/uploads/2017/02/i.jpg?fit=550%2C500&ssl=1" alt="#" /></div>
+                              <div class="tab-pane" id="pic-2"><img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2019/01/20/3587109348.jpg" alt="#" /></div>
                        
                            </div>
                            <ul class="preview-thumbnail nav nav-tabs">
-                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/162/135/small/Free_Push_Up_Vector-01.jpg" alt="#" /></a></li>
-                              <li><a data-target="#pic-2" data-toggle="tab"><img style="height: 100px;align-content: center;" src="https://cdn4.vectorstock.com/i/1000x1000/20/28/dynamic-clap-push-ups-sport-exersice-silhouettes-vector-23532028.jpg" alt="#" /></a></li>
+                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="https://i2.wp.com/beritatangsel.com/wp-content/uploads/2017/02/i.jpg?fit=550%2C500&ssl=1" alt="#" /></a></li>
+                              <li><a data-target="#pic-2" data-toggle="tab"><img style="height: 130px;align-content: center;" src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2019/01/20/3587109348.jpg" alt="#" /></a></li>
                              
                            </ul>
                         </div>
@@ -116,10 +116,9 @@
                   <div class="description-box">
                      <div class="dex-a">
                         <h4>Description</h4>
-                        <p>Push up adalah suatu jenis senam kekuatan yang berfungsi untuk menguatkan otot bisep maupun trisep.
-                           Posisi awal tidur tengkurap dengan tangan di sisi kanan kiri badan.
-                           Kemudian badan didorong ke atas dengan kekuatan tangan. Posisi kaki dan badan tetap lurus atau tegap. Setelah itu, badan diturunkan dengan tetap menjaga kondisi badan dan kaki tetap lurus. Badan turun tanpa menyentuh lantai atau tanah.
-                           Naik lagi dan dilakukan secara berulang. Kegiatan ini dapat dikombinasikan dengan:
+                        <p>Sit up merupakan salah satu jenis latihan olahraga yang dapat melatih kekuatan otot 
+                           dan membuat otot menjadi lebih kencang. Tidak hanya otot perut, 
+                           sit up juga melatih otot dada, panggul, pinggang bagian bawah, hingga leher.
                         </p>
                      </div>
 
