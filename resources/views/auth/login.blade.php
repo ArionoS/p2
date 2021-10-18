@@ -82,7 +82,63 @@
             </a>
           </div>
         </form>
-        
+
+        <form method="POST" action="{{ route('login') }}" class="sign-up-form">
+          <h2 class="title">Sign Up</h2>
+
+          <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+            <label class="label">Username</label>
+            <div class="input-group">
+              <input id="email" type="text" class="form-control" name="email" value="{{ old('email') }}" required autocomplete="username" autofocus>
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="mdi mdi-check-circle-outline"></i>
+                </span>
+              </div>
+            </div>
+            @if ($errors->has('email'))
+            <span class="help-block">
+              <strong>{{ $errors->first('email') }}</strong>
+            </span>
+            @endif
+          </div>
+          <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+            <label class="label">Password</label>
+            <div class="input-group">
+              <input id="password" type="password" class="form-control" name="password" required>
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="mdi mdi-check-circle-outline"></i>
+                </span>
+              </div>
+              @if ($errors->has('password'))
+              <span class="help-block">
+                <strong>{{ $errors->first('password') }}</strong>
+              </span>
+              @endif
+            </div>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-primary submit-btn btn-block" type="submit">Login</button>
+          </div>
+          <p class="social-text">Or Sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+
+        </form>
+
       </div>
 
 
