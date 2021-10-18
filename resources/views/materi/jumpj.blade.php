@@ -116,15 +116,15 @@
                   <div class="description-box">
                      <div class="dex-a">
                         <h4>Description</h4>
-                        <p>Push up adalah suatu jenis senam kekuatan yang berfungsi untuk menguatkan otot bisep maupun trisep.
-                           Posisi awal tidur tengkurap dengan tangan di sisi kanan kiri badan.
-                           Kemudian badan didorong ke atas dengan kekuatan tangan. Posisi kaki dan badan tetap lurus atau tegap. Setelah itu, badan diturunkan dengan tetap menjaga kondisi badan dan kaki tetap lurus. Badan turun tanpa menyentuh lantai atau tanah.
-                           Naik lagi dan dilakukan secara berulang. Kegiatan ini dapat dikombinasikan dengan:
+                        <p>Jumping jack adalah olahraga yang bisa dilakukan semua orang.
+                            Gerakannya sederhana, yakni melompat sambil membuka tangan dan
+                            kaki, lalu mengatupkannya kembali.
+
                         </p>
                      </div>
 
                      <div class="spe-a">
-                        <h4>Tentang Push Up</h4>
+                        <h4>Tentang Jumping Jack</h4>
                         <ul>
                            <li class="clearfix">
                               <div class="col-md-4">
@@ -147,7 +147,7 @@
                                  <h5>Fokus</h5>
                               </div>
                               <div class="col-md-8">
-                                 <p>Otot Lengan + Perut</p>
+                                 <p>Otot Lengan,Kaki+Tulang</p>
                               </div>
                            </li>
                           

@@ -65,13 +65,13 @@
                      <div class="page-preview">
                         <div class="preview">
                            <div class="preview-pic tab-content">
-                              <div class="tab-pane active" id="pic-1"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/162/135/small/Free_Push_Up_Vector-01.jpg" alt="#" /></div>
-                              <div class="tab-pane" id="pic-2"><img src="https://cdn4.vectorstock.com/i/1000x1000/20/28/dynamic-clap-push-ups-sport-exersice-silhouettes-vector-23532028.jpg" alt="#" /></div>
+                              <div class="tab-pane active" id="pic-1"><img src="https://cdn.idntimes.com/content-images/post/20201117/basic-bodyweight-squat-exercise-3-e1711058d25510da9b37f313cd419242.jpg" alt="#" /></div>
+                              <div class="tab-pane" id="pic-2"><img src="https://media.tabloidbintang.com/files/thumb/1406-squat-sumber_-womens-health.jpg/745" alt="#" /></div>
                        
                            </div>
                            <ul class="preview-thumbnail nav nav-tabs">
-                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/162/135/small/Free_Push_Up_Vector-01.jpg" alt="#" /></a></li>
-                              <li><a data-target="#pic-2" data-toggle="tab"><img style="height: 100px;align-content: center;" src="https://cdn4.vectorstock.com/i/1000x1000/20/28/dynamic-clap-push-ups-sport-exersice-silhouettes-vector-23532028.jpg" alt="#" /></a></li>
+                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="https://cdn.idntimes.com/content-images/post/20201117/basic-bodyweight-squat-exercise-3-e1711058d25510da9b37f313cd419242.jpg" alt="#" /></a></li>
+                              <li><a data-target="#pic-2" data-toggle="tab"><img style="height: 110px;align-content: center;" src="https://media.tabloidbintang.com/files/thumb/1406-squat-sumber_-womens-health.jpg/745" alt="#" /></a></li>
                              
                            </ul>
                         </div>
@@ -116,10 +116,10 @@
                   <div class="description-box">
                      <div class="dex-a">
                         <h4>Description</h4>
-                        <p>Push up adalah suatu jenis senam kekuatan yang berfungsi untuk menguatkan otot bisep maupun trisep.
-                           Posisi awal tidur tengkurap dengan tangan di sisi kanan kiri badan.
-                           Kemudian badan didorong ke atas dengan kekuatan tangan. Posisi kaki dan badan tetap lurus atau tegap. Setelah itu, badan diturunkan dengan tetap menjaga kondisi badan dan kaki tetap lurus. Badan turun tanpa menyentuh lantai atau tanah.
-                           Naik lagi dan dilakukan secara berulang. Kegiatan ini dapat dikombinasikan dengan:
+                        <p>Squat adalah latihan yang baik untuk melatih tubuh 
+                           bagian bawah dan otot inti tubuh. Jika Anda melakukan latihan ini secara teratur, 
+                           maka gerakan ini bisa bermanfaat dalam mengencangkan otot paha dan bokong, 
+                           serta meningkatkan sirkulasi pencernaan.
                         </p>
                      </div>
 
@@ -147,7 +147,7 @@
                                  <h5>Fokus</h5>
                               </div>
                               <div class="col-md-8">
-                                 <p>Otot Lengan + Perut</p>
+                                 <p>Paha + Perut + Bokong</p>
                               </div>
                            </li>
                           
