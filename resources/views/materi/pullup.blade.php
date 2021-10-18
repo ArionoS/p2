@@ -1,5 +1,5 @@
 
-@extends('layouts.app1')
+@extends('layouts.app')
 
 @section('content')
 
@@ -116,10 +116,8 @@
                   <div class="description-box">
                      <div class="dex-a">
                         <h4>Description</h4>
-                        <p>Push up adalah suatu jenis senam kekuatan yang berfungsi untuk menguatkan otot bisep maupun trisep.
-                           Posisi awal tidur tengkurap dengan tangan di sisi kanan kiri badan.
-                           Kemudian badan didorong ke atas dengan kekuatan tangan. Posisi kaki dan badan tetap lurus atau tegap. Setelah itu, badan diturunkan dengan tetap menjaga kondisi badan dan kaki tetap lurus. Badan turun tanpa menyentuh lantai atau tanah.
-                           Naik lagi dan dilakukan secara berulang. Kegiatan ini dapat dikombinasikan dengan:
+                        <p>Pull up adalah salah satu latihan untuk melatih kekuatan tubuh bagian atas. Untuk melakukan pull up, Anda perlu menggenggam sebuah tiang besi yang melintang horizontal di atas kepala (pull up bar).
+                            Lalu sesuai namanya, Anda harus menarik tubuh ke atas hingga posisi dagu berada lebih tinggi dari pull up bar.
                         </p>
                      </div>
 
