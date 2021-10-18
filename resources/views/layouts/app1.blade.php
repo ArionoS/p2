@@ -37,8 +37,21 @@
           <span class="icon-menu"></span>
           <i class="fa fa-align-justify" style="color: #fff;"></i>
         </button>
+      </div><p>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+      <div class="sc-kpOJdX jdBprp">
+        <div class="sc-htpNat iZWQZt">
+          <form method="get" target="" action="#">
+            <div class="sc-iAyFgw bPzenj">
+              <div class="sc-hSdWYo fPDUWa">
+                <div class="sc-cvbbAY cTYILf"><i class="sc-EHOje lntAKA"></i></div>
+                <div class="sc-jlyJG jpaAuv"><input type="text" placeholder="Search For Info" value="" name="searchInput" autoComplete="off" class="sc-jAaTju ieDlNt" /></div>
+              </div>
+            </div><input type="submit" hidden="" />
+          </form>
+        </div>
       </div>
-
+      
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-right">
 
@@ -55,19 +68,7 @@
               <a class="dropdown-item p-0">
                 <div class="d-flex border-bottom">
 
-                  <div class="sc-kpOJdX jdBprp">
-                    <div class="sc-htpNat iZWQZt">
-                      <form method="get" target="" action="#">
-                        <div class="sc-iAyFgw bPzenj">
-                          <div class="sc-hSdWYo fPDUWa">
-                            <div class="sc-cvbbAY cTYILf"><i class="sc-EHOje lntAKA"></i></div>
-                            <div class="sc-jlyJG jpaAuv"><input type="text" placeholder="Search For Info" value="" name="searchInput" autoComplete="off" class="sc-jAaTju ieDlNt" /></div>
-                          </div>
-                        </div><input type="submit" hidden="" />
-                      </form>
-                    </div>
-                  </div>
-                  
+           
                 </div>
               </a>
               <a class="dropdown-item" style="margin-top: 20px;" href="{{route('home', Auth::user()->id)}}">
