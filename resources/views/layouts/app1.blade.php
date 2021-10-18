@@ -23,6 +23,8 @@
   @show
   <!-- endinject -->
   <link rel="shortcut icon" href="{{asset('favicon.ico')}}" />
+  <link rel="stylesheet" href="{!! asset('homee/style.css') !!}">
+  <link rel="stylesheet" href="{!! asset('konsultasi/style.css') !!}">
 </head>
 
 <body>
@@ -37,7 +39,7 @@
           <span class="icon-menu"></span>
           <i class="fa fa-align-justify" style="color: #fff;"></i>
         </button>
-      </div><p>
+      </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">
       <div class="sc-kpOJdX jdBprp">
         <div class="sc-htpNat iZWQZt">
