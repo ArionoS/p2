@@ -87,6 +87,40 @@
           <h2 class="title">Sign Up</h2>
 
           <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+            <label class="label">Name</label>
+            <div class="input-group">
+              <input id="email" type="text" class="form-control" name="email" value="{{ old('email') }}" required autocomplete="username" autofocus>
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="mdi mdi-check-circle-outline"></i>
+                </span>
+              </div>
+            </div>
+            @if ($errors->has('email'))
+            <span class="help-block">
+              <strong>{{ $errors->first('email') }}</strong>
+            </span>
+            @endif
+          </div>
+
+          <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+            <label class="label">Email</label>
+            <div class="input-group">
+              <input id="email" type="text" class="form-control" name="email" value="{{ old('email') }}" required autocomplete="username" autofocus>
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="mdi mdi-check-circle-outline"></i>
+                </span>
+              </div>
+            </div>
+            @if ($errors->has('email'))
+            <span class="help-block">
+              <strong>{{ $errors->first('email') }}</strong>
+            </span>
+            @endif
+          </div>
+
+          <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
             <label class="label">Username</label>
             <div class="input-group">
               <input id="email" type="text" class="form-control" name="email" value="{{ old('email') }}" required autocomplete="username" autofocus>
@@ -104,6 +138,22 @@
           </div>
           <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
             <label class="label">Password</label>
+            <div class="input-group">
+              <input id="password" type="password" class="form-control" name="password" required>
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="mdi mdi-check-circle-outline"></i>
+                </span>
+              </div>
+              @if ($errors->has('password'))
+              <span class="help-block">
+                <strong>{{ $errors->first('password') }}</strong>
+              </span>
+              @endif
+            </div>
+          </div>
+          <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+            <label class="label">Confirm Password</label>
             <div class="input-group">
               <input id="password" type="password" class="form-control" name="password" required>
               <div class="input-group-append">
