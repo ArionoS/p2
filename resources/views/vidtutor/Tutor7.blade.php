@@ -96,14 +96,14 @@
                                     <h6>Diterbitkan</h6>
                                     <p>2021</p>
                                     <h6>Genre </h6>
-                                    <p>Learn</p>
+                                    <p>Sport</p>
                                     <h6>Synopsis</h6>
-                                    <p>Bagi Anda yang belum tahu, HTML adalah kepanjangan dari Hypertext Markup Language. Perlu diketahui bawah HTML bukan termasuk bahasa pemrograman, melainkan HTML adalah markup standart yang digunakan dalam menampilkan halaman website. Jadi dengan HTML tidak memiliki kemampuan untuk membuat website yang dinamis, perlu mengkombinasikan dengan bahasa pemrograman web lain.
-                                        Menurut sejarahnya, HTML pertama kali diperkenalkan pada tahun 1990-an. Tim Berners-Lee pada tahun 1989 menciptakan HTML sederhana namun sangat efektif untuk pengkodean dokumen elektronik. Web browser pada zaman itu digunakan untuk membuka dokumen-dokumen dengan format HTML. Pada saat tahun 90-an inilah yang menjadi sejarah lahirnya HTML sehingga dinamakan HTML versi 1.0.</p>
+                                    <p>Fitness/Gym merupakan aktivitas yang mampu membuat orang menjadi lebih bugar dengan menjalankan tiga komponen utamanya, yaitu olahraga, pemenuhan nutrisi, dan istirahat. Sedangkan istilah nge’gym muncul karena untuk melakukan fitnes memang tardapat tempat khusus, biasanya di gymnasium, atau pusat berolahraga.
+                                        Dari berbagai penelitian, fitness, termasuk didalamnya latihan angkat berat dan aerobic berguna untuk mencegah keropos tulang, memperlambat proses penuaan, meningkatkan profil hormone dan libido, meningkatkan imunitas tubuh terhadap penyakit, dan banyak lagi keuntungan lain yang didapat dari olahraga yang satu ini.</p>
                                     <h6>Kualitas</h6>
                                     <p>Blueray</p>
                                     <h6>Diterbitkan</h6>
-                                    <p>CODING LEARN APPLICATION </p>
+                                    <p>NGE - GYM </p>
                                 </div>
                             </div>
                         </div>
