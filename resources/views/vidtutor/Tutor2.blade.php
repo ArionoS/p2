@@ -96,7 +96,7 @@
                                     <h6>Diterbitkan</h6>
                                     <p>2021</p>
                                     <h6>Genre </h6>
-                                    <p>Learn</p>
+                                    <p>Sport</p>
                                     <h6>Synopsis</h6>
                                     <p>Fitness/Gym merupakan aktivitas yang mampu membuat orang menjadi lebih bugar dengan menjalankan tiga komponen utamanya, yaitu olahraga, pemenuhan nutrisi, dan istirahat. Sedangkan istilah nge’gym muncul karena untuk melakukan fitnes memang tardapat tempat khusus, biasanya di gymnasium, atau pusat berolahraga.
                                         Dari berbagai penelitian, fitness, termasuk didalamnya latihan angkat berat dan aerobic berguna untuk mencegah keropos tulang, memperlambat proses penuaan, meningkatkan profil hormone dan libido, meningkatkan imunitas tubuh terhadap penyakit, dan banyak lagi keuntungan lain yang didapat dari olahraga yang satu ini.</p>
