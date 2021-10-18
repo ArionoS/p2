@@ -58,10 +58,10 @@
                                 </div>
                                 <li class="nav-item {{ setActive(['transaksi*']) }}">
                                     <a class="nav-link" href="{{route('transaksi.index')}}">
-                                      <i class="menu-icon mdi mdi-backup-restore"></i>
-                                      <button id="freeChatButton"  class="sc-bxivhb fZDqdL sc-ifAKCX gpzUaD">Konsultasi</button>
+                                        <i class="menu-icon mdi mdi-backup-restore"></i>
+                                        <button id="freeChatButton" class="sc-bxivhb fZDqdL sc-ifAKCX gpzUaD">Konsultasi</button>
                                     </a>
-                                  </li>
+                                </li>
                             </div>
                         </div>
 
@@ -107,7 +107,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/hisar-daniel-spm.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 50.000</span><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                       
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -150,7 +150,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/stumpal-andreas-c-mkedped-spa.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 50.000</span><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -193,7 +193,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/hari-darmawan-spkk.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 50.000</span><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -236,7 +236,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/farah-36.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi krSoPt">Rp 30.000</span><span class="sc-gZMcBi fInzNX">Rp 20.000</span></a></div>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -275,7 +275,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/muhammad-fikri-fadli.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 20.000</span></a></div>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -318,7 +318,7 @@
                                                         <div class="sc-kpOJdX hRSNWf">
                                                             <div class="sc-htpNat iZWQZt"><a href="../dokter/cecilia-sagita-m-psi-psikolog.html" class="sc-gZMcBi sc-kAzzGY jXGOHm"><span class="sc-gZMcBi fInzNX">Rp 25.000</span></a></div>
                                                         </div>
-                                                       
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -355,11 +355,12 @@
                                 <div class="sc-htpNat iZWQZt"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function">
                                         <div class="sc-kGXeez kndIBh">
                                             <div class="sc-kpOJdX kHHyUN">
-                                                <div class="sc-htpNat dpeyZH"><img alt="Skinholic Clinic " src="https://static.sehatq.com/telemed/hospital_logo/20201124101946" width="64" height="64" class="sc-jzJRlG cUTtVS" /></div>
+                                                <div class="sc-htpNat dpeyZH"><img alt="Skinholic Clinic " 
+                                                src="konsultasi/wwwgym.jpg" width="64" height="64" class="sc-jzJRlG cUTtVS" /></div>
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">Skinholic Clinic </h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">WWW GYM MALANG </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -369,11 +370,12 @@
                                 <div class="sc-htpNat iZWQZt"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function">
                                         <div class="sc-kGXeez kndIBh">
                                             <div class="sc-kpOJdX kHHyUN">
-                                                <div class="sc-htpNat dpeyZH"><img alt="Dental White" src="https://static.sehatq.com/telemed/hospital_logo/20210223134945" width="64" height="64" class="sc-jzJRlG cUTtVS" /></div>
+                                                <div class="sc-htpNat dpeyZH"><img alt="Dental White" 
+                                                src="konsultasi/prestige.jpg" width="64" height="64" class="sc-jzJRlG cUTtVS" /></div>
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">Dental White</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">PRESTIGO FITNESS MALANG</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -383,11 +385,12 @@
                                 <div class="sc-htpNat iZWQZt"><a class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink-Function">
                                         <div class="sc-kGXeez kndIBh">
                                             <div class="sc-kpOJdX kHHyUN">
-                                                <div class="sc-htpNat dpeyZH"><img alt="K Dental Care" src="https://static.sehatq.com/telemed/hospital_logo/20210208103036" width="64" height="64" class="sc-jzJRlG cUTtVS" /></div>
+                                                <div class="sc-htpNat dpeyZH"><img alt="K Dental Care" 
+                                                src="https://static.sehatq.com/telemed/hospital_logo/20210208103036" width="64" height="64" class="sc-jzJRlG cUTtVS" /></div>
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">K Dental Care</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">KIKI GYM</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -401,7 +404,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">SehatQ</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">AREMA GYM</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -415,7 +418,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">Klinik Family Medika</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">EGY GYM</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -429,7 +432,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">A8 Dental </h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">BEST GYM</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -443,7 +446,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">RSU Kartini Mojokerto</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">BODY GYM</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +460,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">RSIA Santo Yusuf Tanjung Priok</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">UB SPORT CENTER</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -471,7 +474,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">RS Lancang Kuning</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">ATLAS SPORT CLUB </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -485,7 +488,7 @@
                                             </div>
                                             <div class="sc-kpOJdX rRICf">
                                                 <div class="sc-htpNat iZnvsW">
-                                                    <h3 class="sc-gZMcBi bjTbnS poppins">Zio Clinic Batam</h3>
+                                                    <h3 class="sc-gZMcBi bjTbnS poppins">PROFIT GYM</h3>
                                                 </div>
                                             </div>
                                         </div>
