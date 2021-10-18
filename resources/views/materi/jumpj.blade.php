@@ -65,13 +65,13 @@
                      <div class="page-preview">
                         <div class="preview">
                            <div class="preview-pic tab-content">
-                              <div class="tab-pane active" id="pic-1"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/162/135/small/Free_Push_Up_Vector-01.jpg" alt="#" /></div>
-                              <div class="tab-pane" id="pic-2"><img src="https://cdn4.vectorstock.com/i/1000x1000/20/28/dynamic-clap-push-ups-sport-exersice-silhouettes-vector-23532028.jpg" alt="#" /></div>
+                              <div class="tab-pane active" id="pic-1"><img src="https://penjaskes.co.id/wp-content/uploads/2019/10/jj.png" alt="#" /></div>
+                              <div class="tab-pane" id="pic-2"><img src="https://s2.bukalapak.com/uploads/content_attachment/c1c0e65020e8d7627ecfe3c5/original/gambar_olahraga_kardio_2.jpg" alt="#" /></div>
                        
                            </div>
                            <ul class="preview-thumbnail nav nav-tabs">
-                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/162/135/small/Free_Push_Up_Vector-01.jpg" alt="#" /></a></li>
-                              <li><a data-target="#pic-2" data-toggle="tab"><img style="height: 100px;align-content: center;" src="https://cdn4.vectorstock.com/i/1000x1000/20/28/dynamic-clap-push-ups-sport-exersice-silhouettes-vector-23532028.jpg" alt="#" /></a></li>
+                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="https://penjaskes.co.id/wp-content/uploads/2019/10/jj.png" alt="#" /></a></li>
+                              <li><a data-target="#pic-2" data-toggle="tab"><img style="height: 100px;align-content: center;" src="https://s2.bukalapak.com/uploads/content_attachment/c1c0e65020e8d7627ecfe3c5/original/gambar_olahraga_kardio_2.jpg" alt="#" /></a></li>
                              
                            </ul>
                         </div>
