@@ -8,12 +8,16 @@
   <title>GYM - LOGIN</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="{!! asset('logreg/stylelogin.css') !!}">
   <link rel="icon" href="landing/images/new/logo2.png">
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
-
+  <link rel="stylesheet" href="{{asset('vendors/iconfonts/mdi/css/materialdesignicons.min.css')}}">
+  <link rel="stylesheet" href="{{asset('vendors/iconfonts/puse-icons-feather/feather.css')}}">
+  <link rel="stylesheet" href="{{asset('vendors/css/vendor.bundle.base.css')}}">
+  <link rel="stylesheet" href="{{asset('vendors/css/vendor.bundle.addons.css')}}">
+  <link rel="shortcut icon" href="{{asset('favicon.ico')}}" />
 </head>
 
 <body>
@@ -62,9 +66,57 @@
           <div class="form-group">
             <button class="btn btn-primary submit-btn btn-block" type="submit">Login</button>
           </div>
+          <p class="social-text">Or Sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </form>
+        
       </div>
-      <p class="footer-text text-center" style="margin-top: 20px;color: #308ee0">Copyright © {{date('Y')}} Polinema.com - All rights reserved.</p>
+
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Start By Click
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="logreg/gg.png" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Start Click
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="logreg/register.svg" class="image" alt="" />
+        </div>
+      </div>
     </div>
+
+  </div>
+  <p class="footer-text text-center" style="margin-top: 20px;color: #308ee0">Copyright © {{date('Y')}} Polinema.com - All rights reserved.</p>
+  </div>
   </div>
   </div>
   <!-- content-wrapper ends Herziwp@gmail.com -->
@@ -74,6 +126,7 @@
   </form>
   <script src="{{asset('vendors/js/vendor.bundle.base.js')}}"></script>
   <script src="{{asset('vendors/js/vendor.bundle.addons.js')}}"></script>
+  <script src="logreg/app.js"></script>
 </body>
 
 </html>
