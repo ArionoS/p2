@@ -37,13 +37,13 @@
             <div class="collapse {{ setShow(['anggota*', 'buku*', 'user*']) }}" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link {{ setActive(['anggota*']) }}" href="{{route('anggota.index')}}">Data Anggota</a>
+                  <a class="nav-link {{ setActive(['anggota*']) }}" href="{{route('anggota.index')}}">Data </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {{ setActive(['buku*']) }}" href="{{route('buku.index')}}">Data Konsultan</a>
+                  <a class="nav-link {{ setActive(['buku*']) }}" href="{{route('buku.index')}}">Data </a>
                 </li>
                  <li class="nav-item">
-                  <a class="nav-link {{ setActive(['user*']) }}" href="{{route('user.index')}}">Data User/Admin</a>
+                  <a class="nav-link {{ setActive(['user*']) }}" href="{{route('user.index')}}">Data </a>
                 </li>
               </ul>
             </div>
@@ -52,7 +52,7 @@
           <li class="nav-item {{ setActive(['transaksi*']) }}">
             <a class="nav-link" href="{{route('transaksi.index')}}">
               <i class="menu-icon mdi mdi-backup-restore"></i>
-              <span class="menu-title">Konsultasi</span>
+              <span class="menu-title">Daily</span>
             </a>
           </li>
           <li class="nav-item">
@@ -64,7 +64,7 @@
             <div class="collapse" id="ui-laporan">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="{{url('laporan/trs')}}">Laporan Training</a>
+                  <a class="nav-link" href="{{url('laporan/trs')}}">Laporan Daily</a>
                 </li>
                  <li class="nav-item">
                   <a class="nav-link" href="{{url('laporan/buku')}}">Laporan Konsultan</a>

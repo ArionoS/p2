@@ -48,7 +48,7 @@
                         <div class="sc-htpNat gIOlFP">
                             <div class="sc-kGXeez kndIBh">
                                 <div class="sc-kpOJdX kHHyUN">
-                                    <img src="https://static.sehatq.com/web/assets/img/telemed/chat-now.svg?v=6" alt="Chat dokter online SehatQ" width="246" height="120" class="sc-jzJRlG jJeLuK" />
+                                    
                                 </div>
                                 <div class="sc-kpOJdX rRICf">
                                     <div class="sc-htpNat coYvaZ">
@@ -97,7 +97,7 @@
                                                         </div>
                                                         <div class="sc-kpOJdX iyOQEG">
                                                             <div class="sc-htpNat hUdfYr"><a href="../dokter/hisar-daniel-spm.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Hisar Daniel, Sp.M" src="https://static.sehatq.com/telemed/profile/20210701125547" height="80" width="80" class="sc-jzJRlG hwfehS" />
+                                                                    <div class="sc-htpNat iZWQZt"><img alt=""  height="80" width="80" class="sc-jzJRlG hwfehS" />
                                                                         <div class="sc-kbGplQ hNLpLu"></div>
                                                                     </div>
                                                                 </a></div>
@@ -140,7 +140,7 @@
                                                         </div>
                                                         <div class="sc-kpOJdX iyOQEG">
                                                             <div class="sc-htpNat hUdfYr"><a href="../dokter/stumpal-andreas-c-mkedped-spa.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. S.Tumpal Andreas C, M.Ked(Ped), Sp.A" src="https://static.sehatq.com/telemed/profile/202108161720686" height="80" width="80" class="sc-jzJRlG hwfehS" />
+                                                                    <div class="sc-htpNat iZWQZt"><img alt="" src="" height="80" width="80" class="sc-jzJRlG hwfehS" />
                                                                         <div class="sc-kbGplQ hNLpLu"></div>
                                                                     </div>
                                                                 </a></div>
@@ -183,7 +183,7 @@
                                                         </div>
                                                         <div class="sc-kpOJdX iyOQEG">
                                                             <div class="sc-htpNat hUdfYr"><a href="../dokter/hari-darmawan-spkk.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Hari Darmawan, Sp.KK" src="https://static.sehatq.com/telemed/profile/202108312055951" height="80" width="80" class="sc-jzJRlG hwfehS" />
+                                                                    <div class="sc-htpNat iZWQZt"><img alt="" src="" height="80" width="80" class="sc-jzJRlG hwfehS" />
                                                                         <div class="sc-kbGplQ hNLpLu"></div>
                                                                     </div>
                                                                 </a></div>
@@ -226,7 +226,7 @@
                                                         </div>
                                                         <div class="sc-kpOJdX iyOQEG">
                                                             <div class="sc-htpNat hUdfYr"><a href="../dokter/farah-36.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Farahdissa Anggreaini" src="https://static.sehatq.com/telemed/profile/20210610212958" height="80" width="80" class="sc-jzJRlG hwfehS" />
+                                                                    <div class="sc-htpNat iZWQZt"><img alt="" src="" height="80" width="80" class="sc-jzJRlG hwfehS" />
                                                                         <div class="sc-kbGplQ hNLpLu"></div>
                                                                     </div>
                                                                 </a></div>
@@ -265,7 +265,7 @@
                                                         </div>
                                                         <div class="sc-kpOJdX iyOQEG">
                                                             <div class="sc-htpNat hUdfYr"><a href="../dokter/muhammad-fikri-fadli.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt="dr. Muhammad Fikri Fadli" src="https://static.sehatq.com/telemed/profile/202109061209035" height="80" width="80" class="sc-jzJRlG hwfehS" />
+                                                                    <div class="sc-htpNat iZWQZt"><img alt="" src="" height="80" width="80" class="sc-jzJRlG hwfehS" />
                                                                         <div class="sc-kbGplQ hNLpLu"></div>
                                                                     </div>
                                                                 </a></div>
@@ -308,7 +308,7 @@
                                                         </div>
                                                         <div class="sc-kpOJdX iyOQEG">
                                                             <div class="sc-htpNat hUdfYr"><a href="../dokter/cecilia-sagita-m-psi-psikolog.html" class="sc-gZMcBi sc-kAzzGY gDsSfP">
-                                                                    <div class="sc-htpNat iZWQZt"><img alt=" Cecilia Sagita, M. Psi., Psikolog" src="https://static.sehatq.com/telemed/profile/20210126160848" height="80" width="80" class="sc-jzJRlG hwfehS" />
+                                                                    <div class="sc-htpNat iZWQZt"><img alt=" " src="" height="80" width="80" class="sc-jzJRlG hwfehS" />
                                                                         <div class="sc-kbGplQ bJXBxk"></div>
                                                                     </div>
                                                                 </a></div>
@@ -328,18 +328,7 @@
                                 </div>
                             </div>
                             <div class="sc-bdVaJa ibWqaM">
-                                <div class="sc-kGXeez cQHVVI">
-                                    <div class="sc-kpOJdX gfgLzX"><span data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:1,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&quot;}}" class="sc-gZMcBi lnKchW sc-iQKALj ixNZYN">1</span></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialis09ed.html?perPage=20&amp;page=2" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:2,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:2},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=2&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">2</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialis4e04.html?perPage=20&amp;page=3" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:3,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:3},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=3&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">3</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialis4abf.html?perPage=20&amp;page=4" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:4,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:4},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=4&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">4</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialised28.html?perPage=20&amp;page=5" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:5,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:5},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=5&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">5</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialisddce.html?perPage=20&amp;page=6" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:6,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:6},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=6&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">6</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialis9948.html?perPage=20&amp;page=7" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:7,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:7},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=7&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">7</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><span data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:&quot;DOT_MORE&quot;,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:&quot;DOT_MORE&quot;},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=DOT_MORE&quot;}}" class="sc-gZMcBi lnKchW sc-iQKALj chzNmi"><span class="sc-gZMcBi dNgXVs">...</span></span></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialis5cc4.html?perPage=20&amp;page=19" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:19,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:19},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=19&quot;}}" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi">19</a></div>
-                                    <div class="sc-kpOJdX gfgLzX"><a href="../spesialis09ed.html?perPage=20&amp;page=2" aria-label="next" data-custom="{&quot;isLink&quot;:true,&quot;label&quot;:&quot;RIGHT&quot;,&quot;link&quot;:{&quot;pathname&quot;:&quot;/telemed/telemedHcps&quot;,&quot;query&quot;:{&quot;q&quot;:&quot;&quot;,&quot;perPage&quot;:20,&quot;slug&quot;:&quot;&quot;,&quot;page&quot;:2},&quot;asPath&quot;:&quot;/telemed/spesialis?perPage=20&amp;page=2&quot;}}" rel="next" class="sc-gZMcBi sc-kAzzGY DpAbp sc-iQKALj chzNmi"><i class="sc-EHOje epULTc"></i></a></div>
-                                </div>
+                            
                             </div>
                         </div>
                     </div>

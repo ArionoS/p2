@@ -143,8 +143,11 @@ Route::resource('anggota', 'AnggotaController');
 Route::resource('buku', 'BukuController');
 Route::get('/format_buku', 'BukuController@format');
 Route::post('/import_buku', 'BukuController@import');
-
+Route::resource('transaksi.daily', 'DailyController@index');
 Route::resource('transaksi', 'TransaksiController');
+//Route::resource('transaksi.daily', 'TransaksiController@index1');
+Route::get('/transaksi.daily', 'DailyController@index1')->name('transaksi');
+Route::resource('transaksii', 'DailyController');
 Route::get('/laporan/trs', 'LaporanController@transaksi');
 Route::get('/laporan/trs/pdf', 'LaporanController@transaksiPdf');
 Route::get('/laporan/trs/excel', 'LaporanController@transaksiExcel');

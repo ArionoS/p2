@@ -7,6 +7,7 @@ use App\User;
 use App\Buku;
 use App\Anggota;
 use App\Transaksi;
+use App\Daily;
 use Carbon\Carbon;
 use Session;
 use Illuminate\Support\Facades\Redirect;
@@ -14,7 +15,7 @@ use Auth;
 use DB;
 use RealRashid\SweetAlert\Facades\Alert;
 
-class TransaksiController extends Controller
+class DailyController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,21 +32,21 @@ class TransaksiController extends Controller
     {
         if(Auth::user()->level == 'user')
         {
-            $datas = Transaksi::where('anggota_id', Auth::user()->anggota->id)
+            $datas = Daily::where('anggota_id', Auth::user()->anggota->id)
                                 ->get();
         } else {
-            $datas = Transaksi::get();
+            $datas = Daily::get();
         }
-        return view('transaksi.index', compact('datas'));
+        return view('transaksi.daily', compact('datas'));
     }
     public function index1()
     {
         if(Auth::user()->level == 'user')
         {
-            $datas = Transaksi::where('anggota_id', Auth::user()->anggota->id)
+            $datas = Daily::where('anggota_id', Auth::user()->anggota->id)
                                 ->get();
         } else {
-            $datas = Transaksi::get();
+            $datas = Daily::get();
         }
         return view('transaksi.daily', compact('datas'));
     }
@@ -57,7 +58,7 @@ class TransaksiController extends Controller
     public function create()
     {
         
-        $getRow = Transaksi::orderBy('id', 'DESC')->get();
+        $getRow = Daily::orderBy('id', 'DESC')->get();
         $rowCount = $getRow->count();
         
         $lastId = $getRow->first();
@@ -100,7 +101,7 @@ class TransaksiController extends Controller
 
         ]);
 
-        $transaksi = Transaksi::create([
+        $daily = Daily::create([
                 'kode_transaksi' => $request->get('kode_transaksi'),
                 'tgl_pinjam' => $request->get('tgl_pinjam'),
                 'tgl_kembali' => $request->get('tgl_kembali'),
@@ -110,9 +111,9 @@ class TransaksiController extends Controller
                 'status' => 'pinjam'
             ]);
 
-        $transaksi->buku->where('id', $transaksi->buku_id)
+        $daily->buku->where('id', $daily->buku_id)
                         ->update([
-                            'jumlah_buku' => ($transaksi->buku->jumlah_buku - 1),
+                            'jumlah_buku' => ($daily->buku->jumlah_buku - 1),
                             ]);
 
         alert()->success('Berhasil.','Data telah ditambahkan!');
@@ -129,7 +130,7 @@ class TransaksiController extends Controller
     public function show($id)
     {
 
-        $data = Transaksi::findOrFail($id);
+        $data = Daily::findOrFail($id);
 
 
         if((Auth::user()->level == 'user') && (Auth::user()->anggota->id != $data->anggota_id)) {
@@ -138,7 +139,7 @@ class TransaksiController extends Controller
         }
 
 
-        return view('transaksi.show', compact('data'));
+        return view('transaksi.show1', compact('data'));
     }
 
     /**
@@ -149,7 +150,7 @@ class TransaksiController extends Controller
      */
     public function edit($id)
     {   
-        $data = Transaksi::findOrFail($id);
+        $data = Daily::findOrFail($id);
 
         if((Auth::user()->level == 'user') && (Auth::user()->anggota->id != $data->anggota_id)) {
                 Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
@@ -168,19 +169,19 @@ class TransaksiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $transaksi = Transaksi::find($id);
+        $daily = Daily::find($id);
 
-        $transaksi->update([
+        $daily->update([
                 'status' => 'kembali'
                 ]);
 
-        $transaksi->buku->where('id', $transaksi->buku->id)
+        $daily->buku->where('id', $daily->buku->id)
                         ->update([
-                            'jumlah_buku' => ($transaksi->buku->jumlah_buku + 1),
+                            'jumlah_buku' => ($daily->buku->jumlah_buku + 1),
                             ]);
 
         alert()->success('Berhasil.','Data telah diubah!');
-        return redirect()->route('transaksi.index');
+        return redirect()->route('transaksi.daily');
     }
 
     /**
@@ -191,8 +192,8 @@ class TransaksiController extends Controller
      */
     public function destroy($id)
     {
-        Transaksi::find($id)->delete();
+        Daily::find($id)->delete();
         alert()->success('Berhasil.','Data telah dihapus!');
-        return redirect()->route('transaksi.index');
+        return redirect()->route('transaksi.daily');
     }
 }
