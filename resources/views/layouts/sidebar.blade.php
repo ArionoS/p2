@@ -49,12 +49,26 @@
             </div>
           </li>
           @endif
-          <li class="nav-item {{ setActive(['transaksi*']) }}">
-            <a class="nav-link" href="{{route('transaksi.index')}}">
+          @if(Auth::user()->level == 'admin')
+          <li class="nav-item {{ setActive(['anggota*', 'buku*', 'user*']) }}">
+            <a class="nav-link " data-toggle="collapse" href="#ui-bas" aria-expanded="false" aria-controls="ui-bas">
               <i class="menu-icon mdi mdi-backup-restore"></i>
-              <span class="menu-title">Konsultasi</span>
+              <span class="menu-title">Data</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse {{ setShow(['transaksi*', 'workout*']) }}" id="ui-bas">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link {{ setActive(['transaksi*']) }}" href="{{route('transaksi.index')}}">Data Transaksi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link {{ setActive(['workout*']) }}" href="{{route('workout.index')}}">Data Daily Progress</a>
+                </li>
+              
+              </ul>
+            </div>
           </li>
+          @endif
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-laporan" aria-expanded="false" aria-controls="ui-laporan">
               <i class="menu-icon mdi mdi-table"></i>

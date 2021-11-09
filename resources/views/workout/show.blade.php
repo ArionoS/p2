@@ -46,7 +46,7 @@ $(document).ready(function() {
 
                         <div class="form-group">
                             <div class="col-md-6">
-                                <img width="200" height="200" @if($data->cover) src="{{ asset('images/buku/'.$data->cover) }}" @endif />
+                                <img width="200" height="200" @if($data->cover) src="{{ asset('images/workout/'.$data->cover) }}" @endif />
                             </div>
                         </div>
 
@@ -138,9 +138,7 @@ $(document).ready(function() {
                             </select>
                             </div>
                         </div>
-
-
-                        <a href="{{route('buku.index')}}" class="btn btn-light pull-right">Back</a>
+                        <a href="{{route('workout.index')}}" class="btn btn-light pull-right">Back</a>
                     </div>
                   </div>
                 </div>
