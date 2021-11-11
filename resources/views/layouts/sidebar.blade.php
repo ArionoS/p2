@@ -49,8 +49,8 @@
             </div>
           </li>
           @endif
-          @if(Auth::user()->level == 'admin')
-          <li class="nav-item {{ setActive(['anggota*', 'buku*', 'user*']) }}">
+              
+          <li class="nav-item {{ setActive(['transaksi*', 'workout*']) }}">
             <a class="nav-link " data-toggle="collapse" href="#ui-bas" aria-expanded="false" aria-controls="ui-bas">
               <i class="menu-icon mdi mdi-backup-restore"></i>
               <span class="menu-title">Data</span>
@@ -68,7 +68,7 @@
               </ul>
             </div>
           </li>
-          @endif
+          
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-laporan" aria-expanded="false" aria-controls="ui-laporan">
               <i class="menu-icon mdi mdi-table"></i>
