@@ -163,8 +163,8 @@
                      <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                         <div class="right-buyer">
                            <h4>Nge-Gym</h4>
-                           <h2>CALISTHENICS<br>
-                              <span>With a many great tutorial</span>
+                           <h2>Workout Tutorial<br>
+                              <span>many great tutorial inside here!</span>
                            </h2>
                            <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
                            </p>
@@ -180,18 +180,18 @@
                                              <div class="supplier clearfix">
                                                 <div class="col-md-5 col-sm-6">
                                                    <div class="left-supplier">
-                                                      <h4>Tutorial</h4>
-                                                      <h2>Grow your body <br><span>With a tutorial</span></h2>
+                                                      <h4>Nge-Gym</h4>
+                                                      <h2>Nutrition Information <br><span>Information to grow your body</span></h2>
                                                       <p>Never worry about fail with Nge-Gym App your body is directly
                                                          perfect
                                                       </p>
                                                       .
-                                                      <a href="{{url('vidtutor.index/')}}">Get It</a>
+                                                      <a href="{{url('nutrition.index/')}}">Get It</a>
                                                    </div>
                                                 </div>
                                                 <div class="col-md-7 col-sm-6">
                                                    <div class="right-supplier">
-                                                      <img class="img-responsive" src="landing2/demo-categories/gym/images/01.jpg" alt="#" />
+                                                      <img class="img-responsive" src="a/images/food.jpg" alt="#" />
                                                    </div>
                                                 </div>
                                              </div>
