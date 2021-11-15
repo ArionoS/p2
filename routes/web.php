@@ -149,6 +149,8 @@ Route::get('/format_buku', 'BukuController@format');
 Route::post('/import_buku', 'BukuController@import');
 //Workout
 Route::resource('workout', 'WorkoutController');
+//nutrisi
+Route::resource('nutrisi', 'NutrisiController');
 Route::get('/format_buku', 'WorkoutController@format');
 Route::post('/import_buku', 'WorkoutController@import');
 Route::resource('transaksi.daily', 'DailyController@index');

@@ -64,7 +64,9 @@
                 <li class="nav-item">
                   <a class="nav-link {{ setActive(['workout*']) }}" href="{{route('workout.index')}}">Data Daily Progress</a>
                 </li>
-              
+                <li class="nav-item">
+                  <a class="nav-link {{ setActive(['nutrisi*']) }}" href="{{route('nutrisi.index')}}">Data Nutrisi Progress</a>
+                </li>
               </ul>
             </div>
           </li>
