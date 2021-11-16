@@ -51,7 +51,7 @@ $(document).ready(function() {
                         </div>
 
                         <div class="form-group{{ $errors->has('judul') ? ' has-error' : '' }}">
-                            <label for="judul" class="col-md-4 control-label">Judul</label>
+                            <label for="judul" class="col-md-4 control-label">Nama</label>
                             <div class="col-md-6">
                                 <input id="judul" type="text" class="form-control" name="judul" value="{{ $data->judul }}" readonly="">
                                 @if ($errors->has('judul'))
@@ -62,7 +62,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('npm') ? ' has-error' : '' }}">
-                            <label for="isbn" class="col-md-4 control-label">ISBN</label>
+                            <label for="isbn" class="col-md-4 control-label">Nomor</label>
                             <div class="col-md-6">
                                 <input id="isbn" type="text" class="form-control" name="isbn" value="{{ $data->isbn }}" readonly>
                                 @if ($errors->has('isbn'))
@@ -73,7 +73,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('pengarang') ? ' has-error' : '' }}">
-                            <label for="pengarang" class="col-md-4 control-label">Pengarang</label>
+                            <label for="pengarang" class="col-md-4 control-label">Alamat</label>
                             <div class="col-md-6">
                                 <input id="pengarang" type="text" class="form-control" name="pengarang" value="{{ $data->pengarang }}" readonly>
                                 @if ($errors->has('pengarang'))
@@ -84,7 +84,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('penerbit') ? ' has-error' : '' }}">
-                            <label for="penerbit" class="col-md-4 control-label">Penerbit</label>
+                            <label for="penerbit" class="col-md-4 control-label">Merger</label>
                             <div class="col-md-6">
                                 <input id="penerbit" type="text" class="form-control" name="penerbit" value="{{ $data->penerbit }}" readonly>
                                 @if ($errors->has('penerbit'))
@@ -95,7 +95,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
-                            <label for="tahun_terbit" class="col-md-4 control-label">Tahun Terbit</label>
+                            <label for="tahun_terbit" class="col-md-4 control-label">Tahun Lahir</label>
                             <div class="col-md-6">
                                 <input id="tahun_terbit" type="number" maxlength="4" class="form-control" name="tahun_terbit" value="{{ $data->tahun_terbit }}" readonly>
                                 @if ($errors->has('tahun_terbit'))
@@ -106,7 +106,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('jumlah_buku') ? ' has-error' : '' }}">
-                            <label for="jumlah_buku" class="col-md-4 control-label">Jumlah Buku</label>
+                            <label for="jumlah_buku" class="col-md-4 control-label">Free Jam</label>
                             <div class="col-md-6">
                                 <input id="jumlah_buku" type="number" maxlength="4" class="form-control" name="jumlah_buku" value="{{ $data->jumlah_buku }}" readonly>
                                 @if ($errors->has('jumlah_buku'))
@@ -119,7 +119,7 @@ $(document).ready(function() {
                         <div class="form-group{{ $errors->has('deskripsi') ? ' has-error' : '' }}">
                             <label for="deskripsi" class="col-md-4 control-label">Deskripsi</label>
                             <div class="col-md-12">
-                                <input id="deskripsi" type="text" class="form-control" name="deskripsi" value="{{ old('deskripsi') }}" readonly="">
+                                <input id="deskripsi" type="text" class="form-control" name="deskripsi" value="{{ $data->deskripsi }}" readonly="">
                                 @if ($errors->has('deskripsi'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('deskripsi') }}</strong>
@@ -129,7 +129,7 @@ $(document).ready(function() {
                         </div>
 
                         <div class="form-group{{ $errors->has('lokasi') ? ' has-error' : '' }}">
-                            <label for="lokasi" class="col-md-4 control-label">Lokasi</label>
+                            <label for="lokasi" class="col-md-4 control-label">Tim</label>
                             <div class="col-md-6">
                             <select class="form-control" name="lokasi" disabled="">
                                 <option value="rak1" {{$data->lokasi === "rak1" ? "selected" : ""}}>1</option>

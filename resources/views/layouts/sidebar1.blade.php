@@ -37,13 +37,13 @@
             <div class="collapse {{ setShow(['anggota*', 'buku*', 'user*']) }}" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link {{ setActive(['anggota*']) }}" href="{{route('anggota.index')}}">Data </a>
+                  <a class="nav-link {{ setActive(['anggota*']) }}" href="{{route('anggota.index')}}">Data Anggota</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {{ setActive(['buku*']) }}" href="{{route('buku.index')}}">Data </a>
+                  <a class="nav-link {{ setActive(['buku*']) }}" href="{{route('buku.index')}}">Data Konsultan</a>
                 </li>
                  <li class="nav-item">
-                  <a class="nav-link {{ setActive(['user*']) }}" href="{{route('user.index')}}">Data </a>
+                  <a class="nav-link {{ setActive(['user*']) }}" href="{{route('user.index')}}">Data User/Admin</a>
                 </li>
               </ul>
             </div>

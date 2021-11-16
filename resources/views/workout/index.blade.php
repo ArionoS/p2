@@ -28,7 +28,7 @@
 
                 <div class="card-body">
                   <h4 class="card-title pull-left">Data Daily Workout</h4>
-                  <a href="{{url('format_buku')}}" class="btn btn-xs btn-info pull-right">Format Data Daily Workout</a>
+                  <a href="{{url('materi.index')}}" class="btn btn-xs btn-info pull-right">Materi Workout</a>
                   <div class="table-responsive">
                     <table class="table table-striped" id="table">
                       <thead>

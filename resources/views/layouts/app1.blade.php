@@ -37,7 +37,7 @@
         </a>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
           <span class="icon-menu"></span>
-          <i class="fa fa-align-justify" style="color: #fff;"></i>
+          <i class="fa fa-align-justify" style="color: #000000;"></i>
         </button>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">

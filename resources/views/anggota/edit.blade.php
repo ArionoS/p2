@@ -47,7 +47,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('tempat_lahir') ? ' has-error' : '' }}">
-                            <label for="tempat_lahir" class="col-md-4 control-label">Tempat Lahir</label>
+                            <label for="tempat_lahir" class="col-md-4 control-label">Alamat</label>
                             <div class="col-md-6">
                                 <input id="tempat_lahir" type="text" class="form-control" name="tempat_lahir" value="{{ $data->tempat_lahir }}" required>
                                 @if ($errors->has('tempat_lahir'))

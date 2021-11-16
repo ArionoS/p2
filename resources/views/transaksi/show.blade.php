@@ -15,19 +15,19 @@
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('kode_transaksi') ? ' has-error' : '' }}">
-                            <label for="kode_transaksi" class="col-md-4 control-label">Kode Transaksi</label>
+                            <label for="kode_transaksi" class="col-md-4 control-label">Nomor Trainer</label>
                             <div class="col-md-6">
                                 <input id="kode_transaksi" type="text" class="form-control" name="kode_transaksi" value="{{$data->kode_transaksi}}" required readonly="">
                             </div>
                         </div>
                          <div class="form-group{{ $errors->has('tgl_pinjam') ? ' has-error' : '' }}">
-                            <label for="tgl_pinjam" class="col-md-4 control-label">Tanggal Pinjam</label>
+                            <label for="tgl_pinjam" class="col-md-4 control-label">Training Awal</label>
                             <div class="col-md-3">
                                 <input id="tgl_pinjam" type="date" class="form-control" name="tgl_pinjam" value="{{ date('Y-m-d', strtotime($data->tgl_pinjam)) }}" readonly="">
                             </div>
                         </div>
                          <div class="form-group{{ $errors->has('tgl_kembali') ? ' has-error' : '' }}">
-                            <label for="tgl_kembali" class="col-md-4 control-label">Tanggal Kembali</label>
+                            <label for="tgl_kembali" class="col-md-4 control-label">Training Akhir</label>
                             <div class="col-md-3">
                                 <input id="tgl_kembali" type="date"  class="form-control" name="tgl_kembali" value="{{ date('Y-m-d', strtotime($data->tgl_kembali)) }}" readonly="">
                             </div>
@@ -35,7 +35,7 @@
 
 
                         <div class="form-group">
-                            <label for="anggota_id" class="col-md-4 control-label">Buku</label>
+                            <label for="anggota_id" class="col-md-4 control-label">Konsultan</label>
                             <div class="col-md-6">
                                 <input id="buku" type="text" class="form-control" readonly="" value="{{$data->buku->judul}}">
 
@@ -43,7 +43,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="anggota_id" class="col-md-4 control-label">Anggota</label>
+                            <label for="anggota_id" class="col-md-4 control-label">Trainer</label>
                             <div class="col-md-6">
                                 <input id="anggota_nama" type="text" class="form-control" readonly="" value="{{$data->anggota->nama}}">
 
@@ -54,9 +54,9 @@
                             <label for="ket" class="col-md-4 control-label">Status</label>
                             <div class="col-md-6">
                                 @if($data->status == 'pinjam')
-                                  <label class="badge badge-warning">Pinjam</label>
+                                  <label class="badge badge-warning">Masih Training</label>
                                 @else
-                                  <label class="badge badge-success">Kembali</label>
+                                  <label class="badge badge-success">Selesai Training</label>
                                 @endif
                             </div>
                         </div>

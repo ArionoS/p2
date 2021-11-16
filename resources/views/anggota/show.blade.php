@@ -39,7 +39,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('npm') ? ' has-error' : '' }}">
-                            <label for="npm" class="col-md-4 control-label">NPM</label>
+                            <label for="npm" class="col-md-4 control-label">Nomor Trainer</label>
                             <div class="col-md-6">
                                 <input id="npm" type="number" class="form-control" name="npm" value="{{ $data->npm }}" maxlength="8" readonly>
                                 @if ($errors->has('npm'))
@@ -50,7 +50,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('tempat_lahir') ? ' has-error' : '' }}">
-                            <label for="tempat_lahir" class="col-md-4 control-label">Tempat Lahir</label>
+                            <label for="tempat_lahir" class="col-md-4 control-label">Alamat</label>
                             <div class="col-md-6">
                                 <input id="tempat_lahir" type="text" class="form-control" name="tempat_lahir" value="{{ $data->tempat_lahir }}" readonly>
                                 @if ($errors->has('tempat_lahir'))
@@ -85,13 +85,13 @@ $(document).ready(function() {
                         </div>
 
                         <div class="form-group{{ $errors->has('prodi') ? ' has-error' : '' }}">
-                            <label for="prodi" class="col-md-4 control-label">Prodi</label>
+                            <label for="prodi" class="col-md-4 control-label">Kategori</label>
                             <div class="col-md-6">
                             <select class="form-control" name="prodi" required="" disabled="">
                                 <option value=""></option>
-                                <option value="TI" {{$data->prodi === "TI" ? "selected" : ""}} >Teknik Informatika</option>
-                                <option value="SI" {{$data->prodi === "SI" ? "selected" : ""}} >Sistem Informasi</option>
-                                <option value="KM" {{$data->prodi === "KM" ? "selected" : ""}} >Kesehatan Masyarakat</option>
+                                <option value="TI" {{$data->prodi === "TI" ? "selected" : ""}} >Dewasa</option>
+                                <option value="SI" {{$data->prodi === "SI" ? "selected" : ""}} >Remaja</option>
+                                <option value="KM" {{$data->prodi === "KM" ? "selected" : ""}} >Lainya</option>
                             </select>
                             </div>
                         </div>
