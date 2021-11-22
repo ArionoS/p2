@@ -123,6 +123,30 @@ Route::get('materi.situp/', function () {
 Route::get('nutrition.index/', function () {
   return view('nutrition.index');
 });
+Route::get('nutrition.telur/', function () {
+  return view('nutrition.telur');
+});
+Route::get('nutrition.dada/', function () {
+  return view('nutrition.dada');
+});
+Route::get('nutrition.kedelai/', function () {
+  return view('nutrition.kedelai');
+});
+Route::get('nutrition.salmon/', function () {
+  return view('nutrition.salmon');
+});
+Route::get('nutrition.kacang/', function () {
+  return view('nutrition.kacang');
+});
+Route::get('nutrition.yogurt/', function () {
+  return view('nutrition.yogurt');
+});
+Route::get('nutrition.quinoa/', function () {
+  return view('nutrition.quinoa');
+});
+Route::get('nutrition.bubuk/', function () {
+  return view('nutrition.bubuk');
+});
 //
 
 Route::get('profile/', function () {
