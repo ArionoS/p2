@@ -62,7 +62,7 @@
 
                         <div class="row clearfix">
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.pushup/')}}">
+                                <a href="{{url('nutrition.telur/')}}">
                                     <div class="box-img">
                                         <h4>Telur</h4>
                                         <img src="a/images/egg.jfif"
@@ -71,7 +71,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.pullup/')}}">
+                                <a href="{{url('nutrition.dada/')}}">
                                     <div class="box-img">
                                         <h4>Dada Ayam</h4>
                                         <img src="a/images/dada.jpg"
@@ -80,7 +80,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.situp/')}}">
+                                <a href="{{url('nutrition.kedelai/')}}">
                                     <div class="box-img">
                                         <h4>Kedelai</h4>
                                         <img src="a/images/kedelai.jpeg"
@@ -89,7 +89,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.dipssq/')}}">
+                                <a href="{{url('nutrition.salmon/')}}">
                                     <div class="box-img">
                                         <h4>Salmon</h4>
                                         <img src="a/images/salmon.jpg"
@@ -98,7 +98,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.jumpj/')}}">
+                                <a href="{{url('nutrition.kacang/')}}">
                                     <div class="box-img">
                                         <h4>Kacang Merah</h4>
                                         <img style="width: 90%" src="a/images/kacang_merah.jpg"
@@ -107,7 +107,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.jumpj/')}}">
+                                <a href="{{url('nutrition.yogurt/')}}">
                                     <div class="box-img">
                                         <h4>Yogurt</h4>
                                         <img  src="a/images/yogurt.jpg" alt="" />
@@ -115,7 +115,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.jumpj/')}}">
+                                <a href="{{url('nutrition.quinoa/')}}">
                                     <div class="box-img">
                                         <h4>Quinoa</h4>
                                         <img src="a/images/quinoa.jpg" alt="" />
@@ -123,7 +123,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-md-3">
-                                <a href="{{url('materi.jumpj/')}}">
+                                <a href="{{url('nutrition.bubuk/')}}">
                                     <div class="box-img">
                                         <h4>Bubuk Protein</h4>
                                         <img src="a/images/bubuk.jpg" alt="" />
