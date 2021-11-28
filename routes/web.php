@@ -117,6 +117,23 @@ Route::get('materi.pullup/', function () {
 Route::get('materi.situp/', function () {
   return view('materi.situp');
 });
+//
+Route::get('fatloss.index/', function () {
+  return view('materi.fatloss.index');
+});
+Route::get('fatloss.lari/', function () {
+  return view('materi.fatloss.lari');
+});
+Route::get('fatloss.berenang/', function () {
+  return view('materi.fatloss.berenang');
+});
+Route::get('fatloss.bersepeda/', function () {
+  return view('materi.fatloss.bersepeda');
+});
+Route::get('fatloss.lompat_tali/', function () {
+  return view('materi.fatloss.lompat_tali');
+});
+//
 
 
 //
@@ -146,6 +163,15 @@ Route::get('nutrition.quinoa/', function () {
 });
 Route::get('nutrition.bubuk/', function () {
   return view('nutrition.bubuk');
+});
+//
+
+//
+Route::get('workout_category/', function () {
+  return view('workout_category');
+});
+Route::get('nutrition_category/', function () {
+  return view('nutrition_category');
 });
 //
 

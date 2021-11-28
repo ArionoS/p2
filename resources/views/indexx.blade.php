@@ -168,7 +168,7 @@
                            </h2>
                            <p>Calisthenics is a motor movement or sport that uses body weight to build body muscles. The movement of this sport is fairly simple.
                            </p>
-                           <a href="{{url('materi.index/')}}">Get It</a>
+                           <a href="{{url('workout_category/')}}">Get It</a>
                         </div>
                      </div>
 
@@ -186,7 +186,7 @@
                                                          perfect
                                                       </p>
                                                       .
-                                                      <a href="{{url('nutrition.index/')}}">Get It</a>
+                                                      <a href="{{url('nutrition_category/')}}">Get It</a>
                                                    </div>
                                                 </div>
                                                 <div class="col-md-7 col-sm-6">
