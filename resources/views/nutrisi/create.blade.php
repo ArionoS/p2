@@ -46,7 +46,7 @@ $(document).ready(function() {
                       <h4 class="card-title">Tambah Konsultasi baru</h4>
                       
                         <div class="form-group{{ $errors->has('judul') ? ' has-error' : '' }}">
-                            <label for="judul" class="col-md-4 control-label">Workout</label>
+                            <label for="judul" class="col-md-4 control-label">Nutrisi</label>
                             <div class="col-md-6">
                                 <input id="judul" type="text" class="form-control" name="judul" value="{{ old('judul') }}" required>
                                 @if ($errors->has('judul'))
@@ -79,7 +79,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('penerbit') ? ' has-error' : '' }}">
-                            <label for="penerbit" class="col-md-4 control-label">Mulai</label>
+                            <label for="penerbit" class="col-md-4 control-label">Minimal Makan</label>
                             <div class="col-md-6">
                                 <input id="penerbit" type="text" class="form-control" name="penerbit" value="{{ old('penerbit') }}" required>
                                 @if ($errors->has('penerbit'))
@@ -89,10 +89,11 @@ $(document).ready(function() {
                                 @endif
                             </div>
                         </div>
+                        
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
-                            <label for="tahun_terbit" class="col-md-4 control-label">Akhir</label>
+                            <label for="tahun_terbit" class="col-md-4 control-label">Rata Rata Makan</label>
                             <div class="col-md-6">
-                                <input id="tahun_terbit" type="number" maxlength="4" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
+                                <input id="tahun_terbit" type="text" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
                                 @if ($errors->has('tahun_terbit'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('tahun_terbit') }}</strong>
@@ -101,9 +102,9 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('jumlah_buku') ? ' has-error' : '' }}">
-                            <label for="jumlah_buku" class="col-md-4 control-label">Jumlah Latihan</label>
+                            <label for="jumlah_buku" class="col-md-4 control-label">Maximal Makan</label>
                             <div class="col-md-6">
-                                <input id="jumlah_buku" type="number" maxlength="4" class="form-control" name="jumlah_buku" value="{{ old('jumlah_buku') }}" required>
+                                <input id="jumlah_buku" type="text"  class="form-control" name="jumlah_buku" value="{{ old('jumlah_buku') }}" required>
                                 @if ($errors->has('jumlah_buku'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('jumlah_buku') }}</strong>

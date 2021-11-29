@@ -92,7 +92,7 @@ $(document).ready(function() {
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
                             <label for="tahun_terbit" class="col-md-4 control-label">Akhir</label>
                             <div class="col-md-6">
-                                <input id="tahun_terbit" type="number" maxlength="4" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
+                                <input id="tahun_terbit" type="text" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
                                 @if ($errors->has('tahun_terbit'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('tahun_terbit') }}</strong>
@@ -103,7 +103,7 @@ $(document).ready(function() {
                         <div class="form-group{{ $errors->has('jumlah_buku') ? ' has-error' : '' }}">
                             <label for="jumlah_buku" class="col-md-4 control-label">Jumlah Latihan</label>
                             <div class="col-md-6">
-                                <input id="jumlah_buku" type="number" maxlength="4" class="form-control" name="jumlah_buku" value="{{ old('jumlah_buku') }}" required>
+                                <input id="jumlah_buku" type="text" class="form-control" name="jumlah_buku" value="{{ old('jumlah_buku') }}" required>
                                 @if ($errors->has('jumlah_buku'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('jumlah_buku') }}</strong>
