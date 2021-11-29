@@ -78,12 +78,13 @@
                           <td>
                             {{$data->pengarang}}
                           </td>
-                          <td>
-                            {{$data->tahun_terbit}}
-                          </td>
-                          <td>
-                            {{$data->jumlah_buku}}
-                          </td>
+                        </td>
+                        <td>
+                         {{date('d/m/y', strtotime($data->penerbit))}}
+                        </td>
+                        <td>
+                          {{date('d/m/y', strtotime($data->tahun_terbit))}}
+                        </td>
                           <td>
                             {{$data->lokasi}}
                           </td>

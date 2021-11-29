@@ -80,7 +80,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('penerbit') ? ' has-error' : '' }}">
-                            <label for="penerbit" class="col-md-4 control-label">Merger</label>
+                            <label for="penerbit" class="col-md-4 control-label">Mulai</label>
                             <div class="col-md-6">
                                 <input id="penerbit" type="text" class="form-control" name="penerbit" value="{{ $data->penerbit }}" required>
                                 @if ($errors->has('penerbit'))
@@ -91,7 +91,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
-                            <label for="tahun_terbit" class="col-md-4 control-label">Mulai</label>
+                            <label for="tahun_terbit" class="col-md-4 control-label">Akhir</label>
                             <div class="col-md-6">
                                 <input id="tahun_terbit" type="text" class="form-control" name="tahun_terbit" value="{{ $data->tahun_terbit }}" required>
                                 @if ($errors->has('tahun_terbit'))
@@ -102,7 +102,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('jumlah_buku') ? ' has-error' : '' }}">
-                            <label for="jumlah_buku" class="col-md-4 control-label">Akhir</label>
+                            <label for="jumlah_buku" class="col-md-4 control-label">Jumlah</label>
                             <div class="col-md-6">
                                 <input id="jumlah_buku" type="text" class="form-control" name="jumlah_buku" value="{{ $data->jumlah_buku }}" required>
                                 @if ($errors->has('jumlah_buku'))

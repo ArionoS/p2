@@ -81,7 +81,7 @@ $(document).ready(function() {
                         <div class="form-group{{ $errors->has('penerbit') ? ' has-error' : '' }}">
                             <label for="penerbit" class="col-md-4 control-label">Mulai</label>
                             <div class="col-md-6">
-                                <input id="penerbit" type="text" class="form-control" name="penerbit" value="{{ old('penerbit') }}" required>
+                                <input id="penerbit" type="date" class="form-control" name="penerbit" value="{{ date('Y-m-d', strtotime(Carbon\Carbon::today()->toDateString())) }}" required @if(Auth::user()->level == 'user') readonly @endif>
                                 @if ($errors->has('penerbit'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('penerbit') }}</strong>
@@ -92,7 +92,7 @@ $(document).ready(function() {
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
                             <label for="tahun_terbit" class="col-md-4 control-label">Akhir</label>
                             <div class="col-md-6">
-                                <input id="tahun_terbit" type="text" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
+                                <input id="tahun_terbit" type="date" class="form-control" name="tahun_terbit" value="{{ date('Y-m-d', strtotime(Carbon\Carbon::today()->toDateString())) }}" required @if(Auth::user()->level == 'user') readonly @endif>
                                 @if ($errors->has('tahun_terbit'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('tahun_terbit') }}</strong>
