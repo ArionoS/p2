@@ -59,7 +59,7 @@
             <div class="collapse {{ setShow(['transaksi*', 'workout*']) }}" id="ui-bas">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link {{ setActive(['transaksi*']) }}" href="{{route('transaksi.index')}}">Data Transaksi</a>
+                  <a class="nav-link {{ setActive(['transaksi*']) }}" href="{{route('transaksi.index')}}">Data Konsultasi</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link {{ setActive(['workout*']) }}" href="{{route('workout.index')}}">Data Daily Progress</a>
