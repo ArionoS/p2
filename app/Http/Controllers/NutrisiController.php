@@ -30,15 +30,20 @@ class NutrisiController extends Controller
 
     public function index()
     {
-        if(Auth::user()->level == 'user') {
-            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-            return redirect()->to('/');
-        }
 
         $datas = Nutrisi::get();
         return view('nutrisi.index', compact('datas'));
     }
+   // public function index()
+    //{
+      //  if(Auth::user()->level == 'user') {
+        //    Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+          //  return redirect()->to('/');
+        //}
 
+        //$datas = Nutrisi::get();
+        //return view('nutrisi.index', compact('datas'));
+   // }
     /**
      * Show the form for creating a new resource.
      *
@@ -46,10 +51,6 @@ class NutrisiController extends Controller
      */
     public function create()
     {
-        if(Auth::user()->level == 'user') {
-            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-            return redirect()->to('/');
-        }
 
         return view('nutrisi.create');
     }

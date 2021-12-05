@@ -29,15 +29,20 @@ class WorkoutController extends Controller
 
     public function index()
     {
-        if(Auth::user()->level == 'user') {
-            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-            return redirect()->to('/');
-        }
 
         $datas = Workout::get();
         return view('workout.index', compact('datas'));
     }
+   //public function index()
+    //{
+      //  if(Auth::user()->level == 'user') {
+        //    Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+          //  return redirect()->to('/');
+        //}
 
+        //$datas = Workout::get();
+        //return view('workout.index', compact('datas'));
+    //}
     /**
      * Show the form for creating a new resource.
      *
@@ -45,10 +50,6 @@ class WorkoutController extends Controller
      */
     public function create()
     {
-        if(Auth::user()->level == 'user') {
-            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-            return redirect()->to('/');
-        }
 
         return view('workout.create');
     }
