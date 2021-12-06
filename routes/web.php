@@ -135,6 +135,24 @@ Route::get('fatloss.lompat_tali/', function () {
 });
 //
 
+//
+Route::get('nutrition.fatloss.index/', function () {
+  return view('nutrition.fatloss.index');
+});
+Route::get('nutrition.fatloss.sayur/', function () {
+  return view('nutrition.fatloss.sayur');
+});
+Route::get('nutrition.fatloss.alpukat/', function () {
+  return view('nutrition.fatloss.alpukat');
+});
+Route::get('nutrition.fatloss.gandum/', function () {
+  return view('nutrition.fatloss.gandum');
+});
+Route::get('nutrition.fatloss.kentang/', function () {
+  return view('nutrition.fatloss.kentang');
+});
+//
+
 
 //
 Route::get('nutrition.index/', function () {

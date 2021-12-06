@@ -77,8 +77,7 @@
                                                     <p>Never worry about fail with Nge-Gym App your body is directly
                                                         perfect
                                                     </p>
-                                                    .
-                                                    <a href="{{url('nutrition.index/')}}">Get It</a>
+                                                    <a href="{{url('nutrition.fatloss.index/')}}">Get It</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-7 col-sm-6">
