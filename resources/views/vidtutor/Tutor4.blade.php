@@ -89,7 +89,7 @@
                                     <video width="100%" height="315%" src="vidtutor/vid/4.mp4" frameborder="5" controls></video>
                                 </div>
                                 <div class="single-video-title box mb-3">
-                                    <h2><a href="#">HTML </a><span title="" data-placement="top" data-toggle="tooltip" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></span></h2>
+                                    <h2><a href="#">Dips Squad </a><span title="" data-placement="top" data-toggle="tooltip" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></span></h2>
 
                                 </div>
                                 <div class="single-video-info-content box mb-3">

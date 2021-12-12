@@ -111,8 +111,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
+                </div></div>
+<hr><hr><p>
                 <footer>
                     <div class="main-footer">
                         <div class="container">

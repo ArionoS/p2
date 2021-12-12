@@ -79,7 +79,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('penerbit') ? ' has-error' : '' }}">
-                            <label for="penerbit" class="col-md-4 control-label">Tahun</label>
+                            <label for="penerbit" class="col-md-4 control-label">Merger</label>
                             <div class="col-md-6">
                                 <input id="penerbit" type="text" class="form-control" name="penerbit" value="{{ old('penerbit') }}" required>
                                 @if ($errors->has('penerbit'))
@@ -90,7 +90,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('tahun_terbit') ? ' has-error' : '' }}">
-                            <label for="tahun_terbit" class="col-md-4 control-label">Free Jam</label>
+                            <label for="tahun_terbit" class="col-md-4 control-label">Tahun</label>
                             <div class="col-md-6">
                                 <input id="tahun_terbit" type="number" maxlength="4" class="form-control" name="tahun_terbit" value="{{ old('tahun_terbit') }}" required>
                                 @if ($errors->has('tahun_terbit'))
@@ -101,7 +101,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                         <div class="form-group{{ $errors->has('jumlah_buku') ? ' has-error' : '' }}">
-                            <label for="jumlah_buku" class="col-md-4 control-label">Jumlah Buku</label>
+                            <label for="jumlah_buku" class="col-md-4 control-label">Free Jam</label>
                             <div class="col-md-6">
                                 <input id="jumlah_buku" type="number" maxlength="4" class="form-control" name="jumlah_buku" value="{{ old('jumlah_buku') }}" required>
                                 @if ($errors->has('jumlah_buku'))
