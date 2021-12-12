@@ -137,7 +137,7 @@
                                                 <div class="time">00:00</div>
                                             </div>
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor2')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor2')}}">Pull Up</a>
                                             </div>
 
                                             <div class="video-page text-danger">
@@ -156,7 +156,7 @@
                                             </div>
 
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor3')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor3')}}">Sit Up</a>
                                             </div>
                                             <div class="video-page text-success">
                                                 Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -174,7 +174,7 @@
                                             </div>
 
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor4')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor4')}}">Dips Squad</a>
                                             </div>
                                             <div class="video-page text-success">
                                                 Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -192,7 +192,7 @@
                                             </div>
 
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor5')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor5')}}">Jumping Jack</a>
                                             </div>
                                             <div class="video-page text-success">
                                                 Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -209,7 +209,7 @@
                                             </div>
 
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor6')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor6')}}">Berenang</a>
                                             </div>
                                             <div class="video-page text-success">
                                                 Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -226,7 +226,7 @@
                                             </div>
 
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor7')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor7')}}">Berlari </a>
                                             </div>
                                             <div class="video-page text-success">
                                                 Blueray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
@@ -244,7 +244,7 @@
                                             </div>
 
                                             <div class="video-title">
-                                                <a href="{{url('vidtutor.Tutor8')}}">TUTORIAL FITNESS</a>
+                                                <a href="{{url('vidtutor.Tutor8')}}">Bersepeda</a>
                                             </div>
                                             <div class="video-page text-success">
                                                 Blueray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
