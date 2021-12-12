@@ -168,7 +168,8 @@
                                  <h4>Pull Up</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#" tabindex="0">$1220</a>
+                              
+                              
                            </div>
                            <div class="prod-btn">
                               <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
@@ -188,7 +189,8 @@
                                  <h4>Sit Up</h4>
                                  <p>By <span>Beko</span> under <span>Chairs</span></p>
                               </div>
-                              <a href="#" tabindex="0">$1220</a>
+                              
+                              
                            </div>
                            <div class="prod-btn">
                               <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
@@ -209,7 +211,8 @@
                                  <h4>Dips Squat</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#" tabindex="0">$1220</a>
+                             
+                              
                            </div>
                            <div class="prod-btn">
                               <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
@@ -228,7 +231,8 @@
                                  <h4>Jumping Jack Lunges</h4>
                                  <p>By <span>Beko</span> under <span>Chairs</span></p>
                               </div>
-                              <a href="#" tabindex="0">$1220</a>
+                             
+                              
                            </div>
                            <div class="prod-btn">
                               <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
