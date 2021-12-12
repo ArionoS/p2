@@ -1,3 +1,17 @@
+@section('js')
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#table').DataTable({
+      "iDisplayLength": 50
+    });
+
+} );
+</script>
+@stop
+@extends('layouts.app1')
+
+@section('content')
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,50 +47,7 @@
 </head>
 
 <body id="page-top">
-    <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
-        &nbsp;&nbsp;
-
-        <a class="navbar-brand mr-1" href="{{url('vidtutor.index/')}}">
-            <div class="logo">
-                <img src="landing/images/new/logoland.png" style="height: 50px;width: 100px;margin-left: 30px">
-            </div>
-        </a>
-        <!-- Navbar Search -->
-        <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-5 my-2 my-md-0 osahan-navbar-search">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
-                <div class="input-group-append">
-                    <button class="btn btn-light" type="button">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-            </div>
-        </form>
-        <!-- Navbar -->
-        <ul class="navbar-nav ml-auto ml-md-0 osahan-right-navbar">
-            <!--<li class="nav-item mx-1">
-            <a class="nav-link" href="upload.html">
-               <i class="fas fa-plus-circle fa-fw"></i>
-               Upload Video
-            </a>
-         </li> -->
-            <li class="nav-item mx-1">
-                <a class="nav-link" href="{{url('/')}}">
-                    <i class="fas fa-plus-circle fa-fw"></i>
-                    Back To Main
-                </a>
-            </li>
-
-            <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
-                <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                    Rajendra
-                </a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-
+    <hr>
     <div id="wrapper">
 
         <div id="content-wrapper">
@@ -114,9 +85,9 @@
 
                                         <div class="main-title">
                                             <div class="btn-group float-right right-action">
-                                                <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="{{url('vidtutor.index/')}}" class="right-action-link text-gray" aria-haspopup="true" aria-expanded="false">
+                                                    Back To Main <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-right">
                                                     <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top
                                                         Rated</a>
@@ -444,3 +415,4 @@
 </body>
 
 </html>
+@endsection
