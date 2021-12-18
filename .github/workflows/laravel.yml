@@ -19,11 +19,16 @@ jobs:
           echo "Starting the build job"
       - name: 'Checkout'
         uses: actions/checkout@v2
+        
+      - name: 'npm install'
+        run: |
+          npm install
+          npm audit fix
 
       - name: Compile CSS and Javascript
         run: |
-          npm install
           npm run prod
+          
       - name: Configure PHP 8.0
         uses: shivammathur/setup-php@master
         with:
